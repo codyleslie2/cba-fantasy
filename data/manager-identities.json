@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "approvedBy": "CBA commissioner",
+  "managers": [
+    { "id": "manager-kelbey-heider", "slug": "kelbey-heider", "fullName": "Kelbey Heider", "status": "active", "espnAliases": ["Kelbsta2010"] },
+    { "id": "manager-will-leafstedt", "slug": "will-leafstedt", "fullName": "Will Leafstedt", "status": "active", "espnAliases": ["willleafstedt"] },
+    { "id": "manager-peter-ganz", "slug": "peter-ganz", "fullName": "Peter Ganz", "status": "active", "espnAliases": ["peterw9799032"] },
+    { "id": "manager-cody-stalp", "slug": "cody-stalp", "fullName": "Cody Stalp", "status": "active", "espnAliases": ["cstalprun"] },
+    { "id": "manager-wes-dempsey", "slug": "wes-dempsey", "fullName": "Wes Dempsey", "status": "active", "espnAliases": ["wdemps8"] },
+    { "id": "manager-jason-nitz", "slug": "jason-nitz", "fullName": "Jason Nitz", "status": "active", "espnAliases": ["jasonn0256704", "espn42896775"] },
+    { "id": "manager-alex-continenza", "slug": "alex-continenza", "fullName": "Alex Continenza", "status": "active", "espnAliases": ["Alex952892"] },
+    { "id": "manager-jawad-najdawi", "slug": "jawad-najdawi", "fullName": "Jawad Najdawi", "status": "active", "espnAliases": ["AFL since92"] },
+    { "id": "manager-cody-leslie", "slug": "cody-leslie", "fullName": "Cody Leslie", "status": "active", "espnAliases": ["codyle7290469"] },
+    { "id": "manager-tim-switzer", "slug": "tim-switzer", "fullName": "Tim Switzer", "status": "active", "espnAliases": ["tswitz27"] },
+    { "id": "manager-jack-haley", "slug": "jack-haley", "fullName": "Jack Haley", "status": "active", "espnAliases": ["Ugadawgz0612", "espnfan97838955"] },
+    { "id": "manager-bradley-dillon", "slug": "bradley-dillon", "fullName": "Bradley Dillon", "status": "active", "espnAliases": ["54DemTigOlBitties"] },
+    { "id": "manager-shawn-smith", "slug": "shawn-smith", "fullName": "Shawn Smith", "status": "active", "espnAliases": ["smithy9224441"] },
+    { "id": "manager-austin-ketter", "slug": "austin-ketter", "fullName": "Austin Ketter", "status": "active", "espnAliases": ["austin2879449"] },
+    { "id": "manager-patrick-czechut", "slug": "patrick-czechut", "fullName": "Patrick Czechut", "status": "inactive", "espnAliases": ["Czechutor"] },
+    { "id": "manager-brandon-hansen", "slug": "brandon-hansen", "fullName": "Brandon Hansen", "status": "inactive", "espnAliases": ["BMHansen12"] },
+    { "id": "manager-joe-smith", "slug": "joe-smith", "fullName": "Joe Smith", "status": "inactive", "espnAliases": ["joesmith_15"] },
+    { "id": "manager-ben-christianson", "slug": "ben-christianson", "fullName": "Ben Christianson", "status": "inactive", "espnAliases": ["bjc91677"] }
+  ]
+}

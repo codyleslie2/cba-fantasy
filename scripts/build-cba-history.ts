@@ -1,0 +1,103 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
+type Status = "active" | "inactive";
+interface Identity { id: string; slug: string; fullName: string; status: Status; espnAliases: string[] }
+interface IdentityFile { version: number; approvedBy: string; managers: Identity[] }
+interface Game { year: number; week: number; homeId: string; awayId: string; homeScore: number; awayScore: number; isPlayoff: boolean; tier: string; homeTeam: string; awayTeam: string }
+
+const root = process.cwd();
+const round = (n: number, digits = 2) => Number(n.toFixed(digits));
+const percent = (w: number, l: number, t: number) => w + l + t ? round(w / (w + l + t), 4) : 0;
+
+async function main() {
+  const identityFile = JSON.parse(await readFile(resolve(root, "data/manager-identities.json"), "utf8")) as IdentityFile;
+  const aliasMap = new Map(identityFile.managers.flatMap(manager => manager.espnAliases.map(alias => [alias, manager] as const)));
+  const managerMap = new Map(identityFile.managers.map(manager => [manager.id, manager]));
+  const anomalies: string[] = [];
+  const seasons: any[] = [];
+  const games: Game[] = [];
+  const teamOwnerBySeason = new Map<string, string>();
+
+  for (let year = 2017; year <= 2026; year++) {
+    const raw = JSON.parse(await readFile(resolve(root, `data/raw/${year}.json`), "utf8"));
+    const memberNames = new Map<string, string>((raw.members ?? []).map((m: any) => [m.id, m.displayName]));
+    const teams = (raw.teams ?? []).map((team: any) => {
+      const ownerIds: string[] = team.owners?.length ? team.owners : team.primaryOwner ? [team.primaryOwner] : [];
+      const aliases = ownerIds.map(id => memberNames.get(id)).filter(Boolean) as string[];
+      const managers = [...new Map(aliases.map(alias => aliasMap.get(alias)).filter(Boolean).map(m => [m!.id, m!])).values()];
+      if (managers.length !== 1) anomalies.push(`${year} team ${team.id} (${team.name}): expected one approved manager, found ${managers.length}; aliases=${aliases.join(", ") || "none"}`);
+      const manager = managers[0];
+      if (manager) teamOwnerBySeason.set(`${year}:${team.id}`, manager.id);
+      const record = team.record?.overall ?? {};
+      return { year, espnTeamId: team.id, teamName: team.name || team.abbrev || `Team ${team.id}`, abbreviation: team.abbrev?.trim() ?? "", managerId: manager?.id ?? null, espnAliases: aliases, wins: record.wins ?? 0, losses: record.losses ?? 0, ties: record.ties ?? 0, pointsFor: round(record.pointsFor ?? 0), pointsAgainst: round(record.pointsAgainst ?? 0), finalStanding: team.rankCalculatedFinal || null, playoffSeed: team.playoffSeed || null };
+    });
+    const regularWeeks = raw.settings?.scheduleSettings?.matchupPeriodCount ?? (year <= 2020 ? 13 : 14);
+    const matchups = (raw.schedule ?? []).filter((m: any) => m.home && m.away).map((m: any) => {
+      const completed = ["HOME", "AWAY", "TIE"].includes(m.winner);
+      const tier = m.playoffTierType ?? "NONE";
+      const item = { id: m.id, week: m.matchupPeriodId, homeTeamId: m.home.teamId, awayTeamId: m.away.teamId, homeScore: round(m.home.totalPoints ?? 0), awayScore: round(m.away.totalPoints ?? 0), completed, isPlayoff: tier === "WINNERS_BRACKET", playoffTier: tier };
+      if (completed) {
+        const homeId = teamOwnerBySeason.get(`${year}:${item.homeTeamId}`); const awayId = teamOwnerBySeason.get(`${year}:${item.awayTeamId}`);
+        if (item.homeScore < 0 || item.awayScore < 0) anomalies.push(`${year} week ${item.week}: ESPN reports a negative score (${item.homeScore}-${item.awayScore}) for matchup ${item.id}; retained without modification. Tier=${tier}; ${tier === "NONE" || tier === "WINNERS_BRACKET" ? "record-book eligible" : "not record-book eligible"}.`);
+        if (item.homeScore === 0 || item.awayScore === 0) anomalies.push(`${year} week ${item.week}: ESPN reports a zero score (${item.homeScore}-${item.awayScore}) for matchup ${item.id}; retained without modification. Tier=${tier}; ${tier === "NONE" || tier === "WINNERS_BRACKET" ? "record-book eligible" : "not record-book eligible"}.`);
+        if (homeId && awayId) games.push({ year, week: item.week, homeId, awayId, homeScore: item.homeScore, awayScore: item.awayScore, isPlayoff: item.isPlayoff, tier, homeTeam: teams.find((t: any) => t.espnTeamId === item.homeTeamId)?.teamName, awayTeam: teams.find((t: any) => t.espnTeamId === item.awayTeamId)?.teamName });
+      }
+      return item;
+    });
+    seasons.push({ year, complete: year < 2026, regularSeasonWeeks: regularWeeks, teams, matchups });
+  }
+
+  const championships = seasons.filter(s => s.complete).map(season => {
+    const championTeam = season.teams.find((t: any) => t.finalStanding === 1);
+    const runnerTeam = season.teams.find((t: any) => t.finalStanding === 2);
+    const final = [...season.matchups].reverse().find((m: any) => m.completed && m.isPlayoff && new Set([m.homeTeamId, m.awayTeamId]).size === 2 && [m.homeTeamId, m.awayTeamId].includes(championTeam?.espnTeamId) && [m.homeTeamId, m.awayTeamId].includes(runnerTeam?.espnTeamId));
+    if (!championTeam || !runnerTeam || !final) anomalies.push(`${season.year}: championship team, runner-up, or final matchup could not be fully reconciled`);
+    return { year: season.year, championManagerId: championTeam?.managerId ?? null, championName: managerMap.get(championTeam?.managerId)?.fullName ?? "Unresolved", championTeamName: championTeam?.teamName ?? "Unresolved", runnerUpManagerId: runnerTeam?.managerId ?? null, runnerUpName: managerMap.get(runnerTeam?.managerId)?.fullName ?? "Unresolved", runnerUpTeamName: runnerTeam?.teamName ?? "Unresolved", championScore: final ? (final.homeTeamId === championTeam?.espnTeamId ? final.homeScore : final.awayScore) : null, runnerUpScore: final ? (final.homeTeamId === runnerTeam?.espnTeamId ? final.homeScore : final.awayScore) : null, week: final?.week ?? null };
+  });
+
+  const managerRows = identityFile.managers.map(identity => buildManager(identity, seasons, games, championships));
+  const h2h = buildH2H(identityFile.managers, games);
+  for (const manager of managerRows) {
+    const rivals = h2h.filter(r => r.managerId === manager.id && r.meetings >= 5);
+    manager.nemesis = [...rivals].sort((a,b) => a.winPercentage - b.winPercentage || b.meetings - a.meetings)[0]?.opponentId ?? null;
+    manager.favoriteOpponent = [...rivals].sort((a,b) => b.winPercentage - a.winPercentage || b.meetings - a.meetings)[0]?.opponentId ?? null;
+  }
+  const rivalries = buildRivalries(h2h, managerMap);
+  const records = buildLeagueRecords(managerRows, games, managerMap);
+  const currentSeason = seasons.find(s => s.year === 2026);
+  const currentStandings = currentSeason.teams.map((team: any) => ({ managerId: team.managerId, managerName: managerMap.get(team.managerId)?.fullName ?? "Unresolved", ...team })).sort((a: any,b: any) => b.wins-a.wins || b.pointsFor-a.pointsFor);
+  const siteData = { generatedAt: new Date().toISOString(), provisional: false, identityVersion: identityFile.version, league: { name: "CBA", espnLeagueId: 273644, firstSeason: 2017, currentSeason: 2026 }, managers: managerRows, seasons: seasons.map(({ matchups, ...season }) => ({ ...season, completedMatchups: matchups.filter((m:any)=>m.completed).length })), championships, h2h, rivalries, records, currentStandings, anomalies };
+  await mkdir(resolve(root, "data/generated"), { recursive: true });
+  await writeFile(resolve(root, "data/generated/cba-site-data.json"), JSON.stringify(siteData, null, 2) + "\n");
+  await writeFile(resolve(root, "data/commissioner-audit.md"), renderAudit(siteData, identityFile), "utf8");
+  console.info(`Generated CBA history: ${managerRows.length} managers, ${games.length} completed games, ${championships.length} champions, ${h2h.length} directed H2H records, ${anomalies.length} anomalies.`);
+}
+
+function buildManager(identity: Identity, seasons: any[], games: Game[], championships: any[]) {
+  const seasonHistory = seasons.flatMap(season => season.teams.filter((t:any)=>t.managerId===identity.id).map((team:any) => {
+    const pg = games.filter(g => g.year===season.year && g.isPlayoff && (g.homeId===identity.id || g.awayId===identity.id));
+    const pw = pg.filter(g => (g.homeId===identity.id ? g.homeScore>g.awayScore : g.awayScore>g.homeScore)).length;
+    const pl = pg.length-pw; const champ = championships.find(c=>c.year===season.year && c.championManagerId===identity.id); const runner = championships.find(c=>c.year===season.year && c.runnerUpManagerId===identity.id);
+    return { year: season.year, complete: season.complete, espnTeamId: team.espnTeamId, teamName: team.teamName, abbreviation: team.abbreviation, wins: team.wins, losses: team.losses, ties: team.ties, winPercentage: percent(team.wins,team.losses,team.ties), pointsFor: team.pointsFor, pointsAgainst: team.pointsAgainst, pointDifferential: round(team.pointsFor-team.pointsAgainst), finalStanding: team.finalStanding, playoffAppearance: pg.length>0, playoffWins: pw, playoffLosses: pl, playoffResult: champ ? "Champion" : runner ? "Runner-up" : pg.length ? `Playoffs — ${team.finalStanding}${ordinal(team.finalStanding)}` : "Missed playoffs", champion: Boolean(champ) };
+  })).sort((a:any,b:any)=>a.year-b.year);
+  const completed = seasonHistory.filter((s:any)=>s.complete); const w=sum(completed,"wins"), l=sum(completed,"losses"), t=sum(completed,"ties"), pf=sum(completed,"pointsFor"), pa=sum(completed,"pointsAgainst");
+  const managerGames = games.filter(g=>g.homeId===identity.id||g.awayId===identity.id).sort(gameSort); const regularGames=managerGames.filter(g=>!g.isPlayoff && g.tier==="NONE"); const truePlayoffs=managerGames.filter(g=>g.isPlayoff);
+  const margins=managerGames.map(g=>({game:g, score:g.homeId===identity.id?g.homeScore:g.awayScore, opp:g.homeId===identity.id?g.awayScore:g.homeScore, margin:(g.homeId===identity.id?g.homeScore-g.awayScore:g.awayScore-g.homeScore)}));
+  const streaks=calculateStreaks(regularGames,identity.id); const titles=championships.filter(c=>c.championManagerId===identity.id).map(c=>c.year); const finals=championships.filter(c=>c.championManagerId===identity.id||c.runnerUpManagerId===identity.id);
+  const poWins=truePlayoffs.filter(g=>didWin(g,identity.id)).length, poLosses=truePlayoffs.length-poWins;
+  const best=[...completed].sort((a:any,b:any)=>b.winPercentage-a.winPercentage||b.wins-a.wins||b.pointDifferential-a.pointDifferential)[0]; const worst=[...completed].sort((a:any,b:any)=>a.winPercentage-b.winPercentage||a.wins-b.wins||a.pointDifferential-b.pointDifferential)[0];
+  return { ...identity, firstSeason: seasonHistory[0]?.year ?? null, lastSeason: seasonHistory.at(-1)?.year ?? null, seasonsPlayed: seasonHistory.length, wins:w,losses:l,ties:t,winPercentage:percent(w,l,t),pointsFor:round(pf),pointsAgainst:round(pa),averagePointsFor:round(pf/Math.max(1,w+l+t)),averagePointsAgainst:round(pa/Math.max(1,w+l+t)),pointDifferential:round(pf-pa),playoffAppearances:completed.filter((s:any)=>s.playoffAppearance).length,playoffWins:poWins,playoffLosses:poLosses,playoffWinPercentage:percent(poWins,poLosses,0),finalsAppearances:finals.length,championships:titles.length,championshipLosses:finals.length-titles.length,lastChampionship:titles.at(-1)??null,championshipSeasons:titles,bestSeason:best??null,worstSeason:worst??null,highestScoringSeason:[...completed].sort((a:any,b:any)=>b.pointsFor-a.pointsFor)[0]??null,lowestScoringSeason:[...completed].sort((a:any,b:any)=>a.pointsFor-b.pointsFor)[0]??null,biggestWin:gameRecord(margins.sort((a,b)=>b.margin-a.margin)[0]),worstLoss:gameRecord(margins.sort((a,b)=>a.margin-b.margin)[0]),highestScore:gameRecord(margins.sort((a,b)=>b.score-a.score)[0]),lowestScore:gameRecord(margins.sort((a,b)=>a.score-b.score)[0]),longestWinningStreak:streaks.longestWin,longestLosingStreak:streaks.longestLoss,seasonHistory,nemesis:null as string|null,favoriteOpponent:null as string|null };
+}
+
+function buildH2H(managers: Identity[], games: Game[]) { return managers.flatMap(manager => managers.filter(o=>o.id!==manager.id).map(opponent => { const meetings=games.filter(g=>(g.homeId===manager.id&&g.awayId===opponent.id)||(g.awayId===manager.id&&g.homeId===opponent.id)).sort(gameSort); let w=0,l=0,t=0,pf=0,pa=0; const margins=meetings.map(g=>{const score=g.homeId===manager.id?g.homeScore:g.awayScore,opp=g.homeId===manager.id?g.awayScore:g.homeScore;margin(score,opp);pf+=score;pa+=opp;if(score>opp)w++;else if(score<opp)l++;else t++;return{game:g,score,opp,margin:score-opp}}); const streak=calculateCurrentStreak(meetings,manager.id); return {managerId:manager.id,opponentId:opponent.id,wins:w,losses:l,ties:t,winPercentage:percent(w,l,t),meetings:meetings.length,pointsFor:round(pf),pointsAgainst:round(pa),averageScore:round(pf/Math.max(1,meetings.length)),averageOpponentScore:round(pa/Math.max(1,meetings.length)),pointDifferential:round(pf-pa),biggestWin:gameRecord([...margins].sort((a,b)=>b.margin-a.margin)[0]),worstLoss:gameRecord([...margins].sort((a,b)=>a.margin-b.margin)[0]),highestScore:gameRecord([...margins].sort((a,b)=>b.score-a.score)[0]),lowestScore:gameRecord([...margins].sort((a,b)=>a.score-b.score)[0]),currentStreak:streak.current,longestWinningStreak:streak.longestWin}; })); }
+
+function buildRivalries(h2h:any[], managers:Map<string,Identity>){const unique=h2h.filter(r=>r.managerId<r.opponentId&&r.meetings>0);const qualified=unique.filter(r=>r.meetings>=5);const label=(r:any)=>`${managers.get(r.managerId)?.fullName} vs ${managers.get(r.opponentId)?.fullName}`;const most=[...unique].sort((a,b)=>b.meetings-a.meetings)[0];const close=[...qualified].sort((a,b)=>Math.abs(a.winPercentage-.5)-Math.abs(b.winPercentage-.5)||b.meetings-a.meetings)[0];const one=[...qualified].sort((a,b)=>Math.abs(b.winPercentage-.5)-Math.abs(a.winPercentage-.5))[0];const high=[...qualified].sort((a,b)=>(b.pointsFor+b.pointsAgainst)/b.meetings-(a.pointsFor+a.pointsAgainst)/a.meetings)[0];const streak=[...h2h].sort((a,b)=>parseStreak(b.currentStreak)-parseStreak(a.currentStreak))[0];return{methodology:"All league-wide rivalry superlatives except most-played require at least five meetings. Nemesis and favorite opponent use lowest/highest row-manager win percentage with the same five-meeting minimum, breaking ties by meetings. Closest rivalry minimizes distance from .500; one-sided rivalry maximizes it; highest-scoring uses average combined score.",mostPlayed:pack(most,label),closest:pack(close,label),mostOneSided:pack(one,label),highestScoring:pack(high,label),longestActiveWinningStreak:pack(streak,label)};}
+function buildLeagueRecords(managers:any[],games:Game[],map:Map<string,Identity>){const eligibleGames=games.filter(g=>g.tier==="NONE"||g.tier==="WINNERS_BRACKET");const margins=eligibleGames.flatMap(g=>[{id:g.homeId,score:g.homeScore,opp:g.awayScore,margin:g.homeScore-g.awayScore,game:g},{id:g.awayId,score:g.awayScore,opp:g.homeScore,margin:g.awayScore-g.homeScore,game:g}]);const gameEntry=(label:string,x:any)=>({label,managerId:x.id,managerName:map.get(x.id)?.fullName,value:round(label.includes("score")?x.score:Math.abs(x.margin)),year:x.game.year,week:x.game.week,eligibility:"Regular season or WINNERS_BRACKET only"});const completedSeasons=managers.flatMap(m=>m.seasonHistory.filter((s:any)=>s.complete).map((s:any)=>({...s,managerId:m.id,managerName:m.fullName})));return[gameEntry("Highest single-game score",[...margins].sort((a,b)=>b.score-a.score)[0]),gameEntry("Lowest single-game score",[...margins].sort((a,b)=>a.score-b.score)[0]),gameEntry("Biggest blowout",[...margins].filter(x=>x.margin>0).sort((a,b)=>b.margin-a.margin)[0]),gameEntry("Closest game",[...margins].filter(x=>x.margin>0).sort((a,b)=>a.margin-b.margin)[0]),metric("Most career wins",managers,"wins"),metric("Best career win %",managers,"winPercentage"),metric("Most career points",managers,"pointsFor"),metric("Most championships",managers,"championships"),metric("Most playoff wins",managers,"playoffWins"),{label:"Best single season",...([...completedSeasons].sort((a,b)=>b.winPercentage-a.winPercentage||b.wins-a.wins)[0]),value:[...completedSeasons].sort((a,b)=>b.winPercentage-a.winPercentage||b.wins-a.wins)[0]?.wins},{label:"Highest scoring season",...([...completedSeasons].sort((a,b)=>b.pointsFor-a.pointsFor)[0]),value:[...completedSeasons].sort((a,b)=>b.pointsFor-a.pointsFor)[0]?.pointsFor},metric("Longest winning streak",managers,"longestWinningStreak"),metric("Longest losing streak",managers,"longestLosingStreak")];}
+
+function renderAudit(data:any,identities:IdentityFile){const lines=["# CBA Commissioner Data Audit","",`Generated: ${data.generatedAt}`,"","> ESPN results and commissioner-approved identity mappings are the sources of truth. 2026 is unfinished.","","## 1. Final career leaderboard","","| Manager | Status | Seasons | W-L-T | Win % | PF | PA | Playoffs | PO W-L | Finals | Titles |","|---|---|---:|---|---:|---:|---:|---:|---|---:|---:|",...data.managers.sort((a:any,b:any)=>b.wins-a.wins).map((m:any)=>`| ${m.fullName} | ${m.status} | ${m.seasonsPlayed} | ${m.wins}-${m.losses}-${m.ties} | ${m.winPercentage.toFixed(3)} | ${m.pointsFor.toFixed(2)} | ${m.pointsAgainst.toFixed(2)} | ${m.playoffAppearances} | ${m.playoffWins}-${m.playoffLosses} | ${m.finalsAppearances} | ${m.championships} |`),"","## 2. Championship history","","| Year | Champion | Team | Runner-up | Score |","|---:|---|---|---|---|",...data.championships.map((c:any)=>`| ${c.year} | ${c.championName} | ${c.championTeamName} | ${c.runnerUpName} | ${c.championScore}-${c.runnerUpScore} |`),"","## 3. Graveyard career records","",...data.managers.filter((m:any)=>m.status==="inactive").map((m:any)=>`- **${m.fullName}:** ${m.wins}-${m.losses}-${m.ties}, ${m.pointsFor.toFixed(2)} PF, ${m.playoffAppearances} playoff appearances, ${m.championships} titles`),"","## 4. Full H2H matrix","",matrix(data),"","## 5. Manager-season ownership","",...data.managers.flatMap((m:any)=>m.seasonHistory.map((s:any)=>`- ${s.year}: ${m.fullName} — ESPN team ${s.espnTeamId}, ${s.teamName}`)),"","## 6. Historical team names","",...data.managers.map((m:any)=>`- **${m.fullName}:** ${[...new Set(m.seasonHistory.map((s:any)=>s.teamName))].join("; ")}`),"","## 7. Data anomalies","",...(data.anomalies.length?data.anomalies.map((a:string)=>`- ${a}`):["- None detected by automated reconciliation."]),"","## 8. Identity aliases","",...identities.managers.map(m=>`- **${m.fullName}** (${m.status}): ${m.espnAliases.map(a=>`\`${a}\``).join(", ")}`),""];return lines.join("\n");}
+function matrix(data:any){const ms=data.managers;return["| Manager | "+ms.map((m:any)=>m.fullName).join(" | ")+" |","|---|"+ms.map(()=>"---:").join("|")+"|",...ms.map((m:any)=>`| ${m.fullName} | ${ms.map((o:any)=>o.id===m.id?"—":(()=>{const r=data.h2h.find((h:any)=>h.managerId===m.id&&h.opponentId===o.id);return`${r.wins}-${r.losses}${r.ties?`-${r.ties}`:""}`})()).join(" | ")} |`)].join("\n");}
+function sum(xs:any[],key:string){return xs.reduce((n,x)=>n+(x[key]??0),0)}function ordinal(n:number){return n%10===1&&n%100!==11?"st":n%10===2&&n%100!==12?"nd":n%10===3&&n%100!==13?"rd":"th"}function gameSort(a:Game,b:Game){return a.year-b.year||a.week-b.week}function didWin(g:Game,id:string){return g.homeId===id?g.homeScore>g.awayScore:g.awayScore>g.homeScore}function gameRecord(x:any){return x?{year:x.game.year,week:x.game.week,score:round(x.score),opponentScore:round(x.opp),margin:round(x.margin)}:null}function calculateStreaks(gs:Game[],id:string){let w=0,l=0,mw=0,ml=0;for(const g of gs){if(didWin(g,id)){w++;l=0;mw=Math.max(mw,w)}else{l++;w=0;ml=Math.max(ml,l)}}return{longestWin:mw,longestLoss:ml}}function calculateCurrentStreak(gs:Game[],id:string){let last="",n=0,mw=0,w=0;for(const g of gs){const r=didWin(g,id)?"W":g.homeScore===g.awayScore?"T":"L";if(r===last)n++;else{last=r;n=1}if(r==="W"){w++;mw=Math.max(mw,w)}else w=0}return{current:gs.length?`${last}${n}`:"—",longestWin:mw}}function margin(a:number,b:number){return a-b}function parseStreak(s:string){return s?.startsWith("W")?Number(s.slice(1)):0}function pack(r:any,label:(x:any)=>string){return r?{...r,label:label(r)}:null}function metric(label:string,xs:any[],key:string){const x=[...xs].sort((a,b)=>(typeof b[key]==="object"?b[key]?.longestWin??b[key]:b[key])-(typeof a[key]==="object"?a[key]?.longestWin??a[key]:a[key]))[0];return{label,managerId:x.id,managerName:x.fullName,value:typeof x[key]==="object"?x[key]?.longestWin??x[key]:x[key]}}
+
+void main();

@@ -1,0 +1,9 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import data from "../data/generated/cba-site-data.json";
+
+test("commissioner aliases combine Jason Nitz and Jack Haley careers",()=>{const jason=data.managers.find(m=>m.fullName==="Jason Nitz")!;const jack=data.managers.find(m=>m.fullName==="Jack Haley")!;assert.deepEqual(jason.espnAliases,["jasonn0256704","espn42896775"]);assert.deepEqual(jack.espnAliases,["Ugadawgz0612","espnfan97838955"]);assert.deepEqual(jason.seasonHistory.map(s=>s.year),[2017,2018,2023,2024,2025,2026]);assert.equal(jack.seasonsPlayed,10)});
+test("H2H records are symmetric",()=>{for(const row of data.h2h){const reverse=data.h2h.find(r=>r.managerId===row.opponentId&&r.opponentId===row.managerId)!;assert.equal(row.wins,reverse.losses);assert.equal(row.losses,reverse.wins);assert.equal(row.ties,reverse.ties);assert.equal(row.pointsFor,reverse.pointsAgainst)}});
+test("championship history has nine resolved completed seasons",()=>{assert.equal(data.championships.length,9);assert.deepEqual(data.championships.map(c=>c.year),[2017,2018,2019,2020,2021,2022,2023,2024,2025]);assert.equal(data.championships.filter(c=>c.championName==="Kelbey Heider").length,4)});
+test("regular season league wins and losses balance",()=>{assert.equal(data.managers.reduce((n,m)=>n+m.wins,0),data.managers.reduce((n,m)=>n+m.losses,0))});
+test("unfinished 2026 games do not affect career totals or championships",()=>{assert.equal(data.currentStandings.every(s=>s.wins===0&&s.losses===0),true);assert.equal(data.championships.some(c=>c.year===2026),false);const leslie=data.managers.find(m=>m.fullName==="Cody Leslie")!;const completedWins=leslie.seasonHistory.filter(s=>s.complete).reduce((n,s)=>n+s.wins,0);assert.equal(leslie.wins,completedWins)});

@@ -45,6 +45,24 @@ The model deliberately separates:
 
 This preserves former managers, co-owners, ownership changes, and changing team names. Unknown historical ESPN members must be created as inactive managers for review; they must never be silently discarded.
 
+### Commissioner-controlled identities
+
+`data/manager-identities.json` is the repository source of truth for permanent human identities. Each manager has a stable ID, full display name, active/inactive status, and one or more ESPN account aliases. ESPN team IDs remain season/franchise identifiers and are never treated as people. Jason Nitz and Jack Haley intentionally have two approved aliases each; the generator combines those aliases before calculating careers.
+
+`pnpm build:data` reads the local gitignored ESPN snapshots, applies the approved map, and writes the sanitized `data/generated/cba-site-data.json` plus `data/commissioner-audit.md`. The website imports only the sanitized generated dataset and never reads cookies or raw ESPN responses.
+
+### Statistical methodology
+
+- Career W-L-T, PF, and PA use ESPN regular-season records for completed seasons. The unfinished 2026 season does not add games or a championship.
+- Playoff appearances and playoff W-L use completed `WINNERS_BRACKET` games only. Consolation ladders do not count as playoffs.
+- H2H includes all completed ESPN matchups between the two managers and is always expressed from the row manager's perspective.
+- H2H includes regular season, winners-bracket playoffs, and ESPN consolation matchups because all are official completed CBA meetings. The separate career and playoff ledgers classify those games differently.
+- Career streaks use chronological completed regular-season games. Rivalry streaks use chronological completed H2H meetings.
+- Nemesis, favorite opponent, and league-wide rivalry rate comparisons require at least five meetings. Ties are broken by total meetings.
+- Championship reconciliation requires ESPN final standings plus the completed winners-bracket game between the first- and second-place teams.
+- ESPN anomalies are retained rather than silently corrected and are listed in `data/commissioner-audit.md`.
+- Single-game Record Book eligibility is limited to completed regular-season (`NONE`) and championship-bracket (`WINNERS_BRACKET`) games. Consolation-ladder scores remain in raw history and H2H but cannot set league-wide scoring, margin, or closest-game records.
+
 ## ESPN import plan
 
 League `273644` began in 2017. The importer should request each season from 2017 through the current year using ESPN’s fantasy API views (`mTeam`, `mRoster`, `mMatchup`, `mSettings`, and `mStatus`). The endpoints are undocumented, so all access is isolated in `src/lib/espn/client.ts`.
@@ -65,7 +83,15 @@ Run the current read-only preview with:
 pnpm import:espn 2017 2025
 ```
 
-Public leagues may work without cookies. If ESPN later restricts access, set `ESPN_S2` and `ESPN_SWID` locally. Never commit those values. The current script logs normalized counts and identity-review needs but deliberately performs no database writes.
+Public leagues may work without cookies. If ESPN restricts access, set `ESPN_S2` and `SWID` in the gitignored `.env.local`. Never commit those values. The importer loads them silently, sends them only as request cookies, and never writes them to logs or artifacts.
+
+Each import writes:
+
+- `data/import-review.md` and `data/import-review.json`: commissioner-facing season and identity audit.
+- `data/normalized/cba-history.json`: sanitized normalized seasons suitable for review.
+- `data/raw/<year>.json`: local-only ESPN responses; this directory is gitignored because responses may contain unnecessary member metadata.
+
+The review artifacts and all calculated records are marked provisional until identity mappings are approved. Failed seasons retain status codes and sanitized endpoint diagnostics. The importer also tries ESPN's `leagueHistory` route and, for 2017, probes the retired v2 settings and standings routes before marking the season inaccessible.
 
 ## Deployment
 

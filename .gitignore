@@ -4,7 +4,11 @@ node_modules/
 out/
 .env
 .env.local
+qa-screenshots/
 *.log
 .DS_Store
 coverage/
 *.tsbuildinfo
+
+# Raw ESPN responses may contain unnecessary member metadata. Keep local only.
+data/raw/

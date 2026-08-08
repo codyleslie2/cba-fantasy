@@ -14,12 +14,14 @@ button, input, select { font: inherit; }
 .rule-title { display: flex; gap: .8rem; align-items: center; }
 .rule-title::after { content: ""; height: 1px; flex: 1; background: linear-gradient(90deg, var(--gold), transparent); }
 .stat-number { font-family: Impact, sans-serif; font-variant-numeric: tabular-nums; }
-.demo-badge { border: 1px solid #816c36; color: #f5d77e; background: #2a2413; padding: .25rem .5rem; border-radius: 999px; font-size: .63rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
-.banner { --delay: 0s; position: relative; width: 116px; min-height: 188px; padding: 28px 12px 42px; text-align: center; background: linear-gradient(100deg, #761e24 0 15%, #9e2930 23% 72%, #681920 87%); border: 3px solid #d0a445; box-shadow: inset 0 0 0 3px #761e24, inset 0 0 0 5px #d0a445, 0 12px 24px #0008; transform-origin: top center; animation: sway 7s ease-in-out var(--delay) infinite alternate; clip-path: polygon(0 0,100% 0,100% 85%,75% 100%,50% 85%,25% 100%,0 85%); }
+.banner { --delay: 0s; --duration: 9s; --sway: .35deg; position: relative; width: 122px; min-height: 196px; margin-top: 1.5rem; padding: 28px 12px 44px; text-align: center; background: linear-gradient(100deg, #671920 0 10%, #9e2930 22% 66%, #7b1f26 83%, #52141a); border: 3px solid #d0a445; box-shadow: inset 0 0 0 3px #761e24, inset 0 0 0 5px #d0a445, inset 12px 0 22px #26080b55, inset -10px 0 18px #ffb1a012, 0 18px 26px #0009; transform-origin: 50% -24px; animation: sway var(--duration) ease-in-out var(--delay) infinite alternate; clip-path: polygon(0 0,100% 0,100% 84%,76% 100%,50% 86%,24% 100%,0 84%); }
+.banner::before { content:""; position:absolute; left:50%; top:-28px; width:62%; height:30px; translate:-50% 0; border-left:5px solid #b68b3e; border-right:5px solid #b68b3e; background:linear-gradient(90deg,transparent 0 9%,#311014 10% 90%,transparent 91%); box-shadow:inset 0 -4px #d0a445; }
 .banner::after { content:""; position:absolute; inset:8px; pointer-events:none; opacity:.2; background: repeating-linear-gradient(90deg,transparent 0 3px,#fff2 4px); clip-path:inherit; }
-.banner-rack { position: relative; display:flex; gap:1rem; overflow-x:auto; padding: 2.8rem 1rem 1.4rem; scrollbar-color: var(--gold) transparent; }
-.banner-rack::before { content:""; position:absolute; left:0; right:0; top:1rem; height:10px; border-radius:10px; background:linear-gradient(#899096,#30383f 46%,#0b0f12 54%,#626970); box-shadow:0 4px 8px #000; }
-@keyframes sway { from { transform: rotate(-.7deg) skewX(-.25deg); } to { transform: rotate(.8deg) skewX(.3deg); } }
+.banner-rack { position: relative; display:flex; gap:1rem; overflow-x:auto; padding: 2.9rem 1rem 1.5rem; scrollbar-color: var(--gold) transparent; background:linear-gradient(180deg,#05080b99,transparent 38%); }
+.banner-rod { position:absolute; left:.5rem; right:.5rem; top:1.25rem; height:11px; border-radius:10px; background:linear-gradient(#a6adb2,#394149 44%,#0b0f12 54%,#747c82); box-shadow:0 5px 9px #000, inset 0 1px #d6d9db; }
+.banner-rod::before,.banner-rod::after { content:""; position:absolute; top:-5px; width:17px; height:21px; border-radius:3px; background:linear-gradient(90deg,#333b42,#8a9196,#232a30); box-shadow:0 4px 7px #0009; }
+.banner-rod::before { left:-4px; }.banner-rod::after { right:-4px; }
+@keyframes sway { from { transform: rotate(calc(var(--sway) * -1)) skewX(-.08deg); } to { transform: rotate(var(--sway)) skewX(.08deg); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
 .table-wrap { overflow:auto; border:1px solid var(--line); }
 table { width:100%; border-collapse:collapse; font-size:.78rem; font-variant-numeric:tabular-nums; }
@@ -27,9 +29,15 @@ th { position:sticky; top:0; z-index:2; color:#b8c2c9; background:#111a22; text-
 td { padding:.75rem .65rem; text-align:right; border-top:1px solid #202d38; white-space:nowrap; }
 th:first-child, td:first-child { text-align:left; position:sticky; left:0; z-index:1; background:#101820; }
 tbody tr:hover td { background:#17232d; }
-.matrix-cell { min-width:64px; cursor:pointer; transition:filter .15s; }
+.h2h-table thead th:not(:first-child) { height: 142px; min-width: 58px; padding: .55rem .35rem; vertical-align: bottom; }
+.matrix-column-label { display:inline-block; max-height:125px; writing-mode:vertical-rl; transform:rotate(180deg); text-align:left; text-transform:none; letter-spacing:.02em; font-size:.68rem; }
+.matrix-cell { min-width:58px; transition:filter .15s; }
+.matrix-cell button { width:100%; min-width:52px; min-height:48px; padding:.7rem .25rem; cursor:pointer; color:inherit; background:transparent; border:0; font-weight:700; }
+.matrix-cell button:focus-visible { outline:2px solid var(--gold); outline-offset:-3px; }
+.rivalry-close { display:none; min-height:44px; border:1px solid #596770; padding:.55rem .8rem; color:#e9ece7; background:#111a22; font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
 .matrix-cell:hover { filter:brightness(1.35); }
 .matrix-win { background:#15372d; color:#8fdfb6; }
 .matrix-loss { background:#3b1d20; color:#ef9ca2; }
 .matrix-even { background:#302d21; color:#e1cb8d; }
-@media (max-width: 760px) { .desktop-nav { display:none !important; } .mobile-nav { display:block !important; } }
+@media (max-width: 900px) { .desktop-nav { display:none !important; } .mobile-nav { display:block !important; } .container { width:min(100% - 1.25rem,1180px); } .table-wrap { max-width:100%; scrollbar-color:var(--gold) #111a22; } th:first-child,td:first-child { box-shadow:5px 0 10px #0007; } .banner-rack { margin-inline:-.625rem; padding-inline:1.25rem; scroll-snap-type:x proximity; } .banner { scroll-snap-align:start; } .table-wrap th button { min-width:44px; min-height:44px; padding:.5rem .2rem; } .rivalry-detail:not(.rivalry-detail-open) { display:none; } .rivalry-detail-open { position:fixed; z-index:70; left:.625rem; right:.625rem; bottom:.625rem; max-height:min(72vh,560px); overflow:auto; border-color:#8a7138; box-shadow:0 -18px 70px #000d; } .rivalry-close { display:inline-flex; align-items:center; } }
+@media (max-width: 520px) { .banner { width:132px; min-height:204px; } .banner p.text-\[\.56rem\] { font-size:.65rem; } .banner p.text-\[\.55rem\] { font-size:.66rem; line-height:1.25; } }
