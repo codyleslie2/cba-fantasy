@@ -1,0 +1,3200 @@
+{
+  "generatedAt": "2026-08-08T20:15:37.517Z",
+  "seasons": [
+    {
+      "year": 2017,
+      "champion": {
+        "manager": "Cody Stalp",
+        "teamName": "Rim Lickster",
+        "score": 145.38
+      },
+      "runnerUp": {
+        "manager": "Peter Ganz",
+        "teamName": "Wiki  Leaks",
+        "score": 110.42
+      },
+      "championshipWeek": 16,
+      "standings": [
+        {
+          "manager": "Cody Stalp",
+          "teamName": "Rim Lickster",
+          "teamId": 4,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1517.86,
+          "pointsAgainst": 1340.76,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Wiki  Leaks",
+          "teamId": 3,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pointsFor": 1402.98,
+          "pointsAgainst": 1190.22,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "skol vikings",
+          "teamId": 2,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pointsFor": 1328.46,
+          "pointsAgainst": 1169.04,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "LT. Chody",
+          "teamId": 10,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1382.12,
+          "pointsAgainst": 1273.54,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1230.78,
+          "pointsAgainst": 1110.5,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "Team Bitties",
+          "teamId": 12,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1196.52,
+          "pointsAgainst": 1126.52,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "KC Motherducker ",
+          "teamId": 13,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1094.16,
+          "pointsAgainst": 1195.92,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Brandon Hansen",
+          "teamName": "Lube Me B4 Going In",
+          "teamId": 7,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1247.4,
+          "pointsAgainst": 1196.42,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "King Flippy Nips",
+          "teamId": 14,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1203.96,
+          "pointsAgainst": 1318.76,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Jason Nitz",
+          "teamName": "Team nitz",
+          "teamId": 5,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1109.62,
+          "pointsAgainst": 1264.38,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Joe Smith",
+          "teamName": "Team smith",
+          "teamId": 8,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1104.62,
+          "pointsAgainst": 1147.94,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "Big Baller Wolf",
+          "teamId": 11,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1176.02,
+          "pointsAgainst": 1319.4,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "The Hali Lama",
+          "teamId": 9,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1148.94,
+          "pointsAgainst": 1234.72,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        },
+        {
+          "manager": "Patrick Czechut",
+          "teamName": "Team Buddha",
+          "teamId": 6,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 940.76,
+          "pointsAgainst": 1196.08,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 92,
+          "week": 14,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "skol vikings",
+          "homeScore": 92.84,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "LT. Chody",
+          "awayScore": 82.24,
+          "winner": "Will Leafstedt",
+          "margin": 10.6
+        },
+        {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Peter Ganz",
+          "homeTeam": "Wiki  Leaks",
+          "homeScore": 151.14,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 85.14,
+          "winner": "Peter Ganz",
+          "margin": 66
+        },
+        {
+          "matchupId": 99,
+          "week": 15,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "Rim Lickster",
+          "homeScore": 126.94,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "skol vikings",
+          "awayScore": 100.58,
+          "winner": "Cody Stalp",
+          "margin": 26.36
+        },
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "Team Bitties",
+          "homeScore": 116.78,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Wiki  Leaks",
+          "awayScore": 119.48,
+          "winner": "Peter Ganz",
+          "margin": 2.7
+        },
+        {
+          "matchupId": 106,
+          "week": 16,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "Rim Lickster",
+          "homeScore": 145.38,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Wiki  Leaks",
+          "awayScore": 110.42,
+          "winner": "Cody Stalp",
+          "margin": 34.96
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Cody Stalp",
+          "teamName": "Rim Lickster",
+          "teamId": 4,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1517.86,
+          "pointsAgainst": 1340.76,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "mostPoints": {
+          "manager": "Cody Stalp",
+          "teamName": "Rim Lickster",
+          "teamId": 4,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1517.86,
+          "pointsAgainst": 1340.76,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "highestScore": {
+          "manager": "Cody Stalp",
+          "team": "Rim Lickster",
+          "score": 168.02,
+          "week": 12
+        },
+        "lowestEligibleScore": {
+          "manager": "Patrick Czechut",
+          "team": "Team Buddha",
+          "score": 21.18,
+          "week": 9
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 60,
+          "week": 9,
+          "homeManager": "Patrick Czechut",
+          "homeTeam": "Team Buddha",
+          "homeScore": 21.18,
+          "awayManager": "Joe Smith",
+          "awayTeam": "Team smith",
+          "awayScore": 127.1,
+          "winner": "Joe Smith",
+          "margin": 105.92
+        },
+        "closestEligibleGame": {
+          "matchupId": 6,
+          "week": 1,
+          "homeManager": "Joe Smith",
+          "homeTeam": "Team smith",
+          "homeScore": 72.66,
+          "awayManager": "Cody Leslie",
+          "awayTeam": "The Hali Lama",
+          "awayScore": 73.88,
+          "winner": "Cody Leslie",
+          "margin": 1.22
+        },
+        "longestWinningStreak": {
+          "manager": "Cody Stalp",
+          "streak": 7
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Brandon Hansen",
+          "teamName": "Lube Me B4 Going In",
+          "teamId": 7,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1247.4,
+          "pointsAgainst": 1196.42,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Peter Ganz",
+          "homeTeam": "Wiki  Leaks",
+          "homeScore": 151.14,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 85.14,
+          "winner": "Peter Ganz",
+          "margin": 66
+        },
+        "closestPlayoffGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "Team Bitties",
+          "homeScore": 116.78,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Wiki  Leaks",
+          "awayScore": 119.48,
+          "winner": "Peter Ganz",
+          "margin": 2.7
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 91,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 96,
+        "averageTeamScore": 94.87,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2018,
+      "champion": {
+        "manager": "Kelbey Heider",
+        "teamName": "Long Dick of the Law",
+        "score": 126.14
+      },
+      "runnerUp": {
+        "manager": "Cody Stalp",
+        "teamName": "i like  drugs!",
+        "score": 61.08
+      },
+      "championshipWeek": 16,
+      "standings": [
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 12,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 1594.26,
+          "pointsAgainst": 1238.68,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "i like  beer!",
+          "teamId": 9,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pointsFor": 1435.88,
+          "pointsAgainst": 1284,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "Lenny's Revenge",
+          "teamId": 10,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1471.32,
+          "pointsAgainst": 1357.24,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "teamId": 13,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1291.18,
+          "pointsAgainst": 1246.68,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Team Thicc Thighs",
+          "teamId": 2,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1604.92,
+          "pointsAgainst": 1344.76,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "i like  drugs!",
+          "teamId": 4,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1435.48,
+          "pointsAgainst": 1401.14,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Jason Nitz",
+          "teamName": "Handcuff Gang",
+          "teamId": 6,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1372.3,
+          "pointsAgainst": 1293.26,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Billy Leaf",
+          "teamId": 3,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1348.96,
+          "pointsAgainst": 1246.22,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "One Way Train",
+          "teamId": 8,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1128.1,
+          "pointsAgainst": 1378.22,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "Rookie of  the Year",
+          "teamId": 5,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1333.48,
+          "pointsAgainst": 1432.74,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Brandon Hansen",
+          "teamName": "2018 Nebraska Huskers",
+          "teamId": 7,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1251.82,
+          "pointsAgainst": 1307.16,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "Team Bitties",
+          "teamId": 12,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1159.66,
+          "pointsAgainst": 1343.74,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "i love beer!",
+          "teamId": 11,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1147.46,
+          "pointsAgainst": 1445.08,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "Cumz Thickster",
+          "teamId": 14,
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "pointsFor": 1134.68,
+          "pointsAgainst": 1390.58,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 92,
+          "week": 14,
+          "homeManager": "Shawn Smith",
+          "homeTeam": "Post Mahomes",
+          "homeScore": 72.68,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Team Thicc Thighs",
+          "awayScore": 118.86,
+          "winner": "Will Leafstedt",
+          "margin": 46.18
+        },
+        {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Tim Switzer",
+          "homeTeam": "Lenny's Revenge",
+          "homeScore": 90.24,
+          "awayManager": "Cody Stalp",
+          "awayTeam": "i like  drugs!",
+          "awayScore": 94.78,
+          "winner": "Cody Stalp",
+          "margin": 4.54
+        },
+        {
+          "matchupId": 99,
+          "week": 15,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 150.76,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Team Thicc Thighs",
+          "awayScore": 109.68,
+          "winner": "Kelbey Heider",
+          "margin": 41.08
+        },
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Cody Leslie",
+          "homeTeam": "i like  beer!",
+          "homeScore": 65.66,
+          "awayManager": "Cody Stalp",
+          "awayTeam": "i like  drugs!",
+          "awayScore": 114.06,
+          "winner": "Cody Stalp",
+          "margin": 48.4
+        },
+        {
+          "matchupId": 106,
+          "week": 16,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 126.14,
+          "awayManager": "Cody Stalp",
+          "awayTeam": "i like  drugs!",
+          "awayScore": 61.08,
+          "winner": "Kelbey Heider",
+          "margin": 65.06
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 12,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 1594.26,
+          "pointsAgainst": 1238.68,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "mostPoints": {
+          "manager": "Will Leafstedt",
+          "teamName": "Team Thicc Thighs",
+          "teamId": 2,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1604.92,
+          "pointsAgainst": 1344.76,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        "highestScore": {
+          "manager": "Kelbey Heider",
+          "team": "Long Dick of the Law",
+          "score": 171.18,
+          "week": 1
+        },
+        "lowestEligibleScore": {
+          "manager": "Shawn Smith",
+          "team": "Post Mahomes",
+          "score": 40.84,
+          "week": 12
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 77,
+          "week": 12,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Team Thicc Thighs",
+          "homeScore": 147.12,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "One Way Train",
+          "awayScore": 57.5,
+          "winner": "Will Leafstedt",
+          "margin": 89.62
+        },
+        "closestEligibleGame": {
+          "matchupId": 88,
+          "week": 13,
+          "homeManager": "Jason Nitz",
+          "homeTeam": "Handcuff Gang",
+          "homeScore": 80.82,
+          "awayManager": "Bradley Dillon",
+          "awayTeam": "Team Bitties",
+          "awayScore": 81.88,
+          "winner": "Bradley Dillon",
+          "margin": 1.06
+        },
+        "longestWinningStreak": {
+          "manager": "Kelbey Heider",
+          "streak": 7
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Jason Nitz",
+          "teamName": "Handcuff Gang",
+          "teamId": 6,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1372.3,
+          "pointsAgainst": 1293.26,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 106,
+          "week": 16,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 126.14,
+          "awayManager": "Cody Stalp",
+          "awayTeam": "i like  drugs!",
+          "awayScore": 61.08,
+          "winner": "Kelbey Heider",
+          "margin": 65.06
+        },
+        "closestPlayoffGame": {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Tim Switzer",
+          "homeTeam": "Lenny's Revenge",
+          "homeScore": 90.24,
+          "awayManager": "Cody Stalp",
+          "awayTeam": "i like  drugs!",
+          "awayScore": 94.78,
+          "winner": "Cody Stalp",
+          "margin": 4.54
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 91,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 96,
+        "averageTeamScore": 102.67,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2019,
+      "champion": {
+        "manager": "Peter Ganz",
+        "teamName": "Fresh out of AJ Greenz",
+        "score": 149.92
+      },
+      "runnerUp": {
+        "manager": "Wes Dempsey",
+        "teamName": "Great White Hope",
+        "score": 137.78
+      },
+      "championshipWeek": 16,
+      "standings": [
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "Great White Hope",
+          "teamId": 5,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1497.24,
+          "pointsAgainst": 1125.12,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Fresh out of AJ Greenz",
+          "teamId": 3,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pointsFor": 1327.58,
+          "pointsAgainst": 1251.66,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1471.76,
+          "pointsAgainst": 1311.56,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "J-J-Jimmy  McQuacksCorn",
+          "teamId": 4,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1355.12,
+          "pointsAgainst": 1215.64,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1275.64,
+          "pointsAgainst": 1173.36,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "Team Bitties",
+          "teamId": 12,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1354.62,
+          "pointsAgainst": 1367.74,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1352.76,
+          "pointsAgainst": 1227.72,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "Wolf's Revenge",
+          "teamId": 11,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1244.42,
+          "pointsAgainst": 1297.6,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Pete Top / Kelbey Bottom",
+          "teamId": 2,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1213.82,
+          "pointsAgainst": 1225.8,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "teamId": 13,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1172.02,
+          "pointsAgainst": 1248.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1264.2,
+          "pointsAgainst": 1386.24,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Ben Christianson",
+          "teamName": "Handcuff 123",
+          "teamId": 6,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1097.42,
+          "pointsAgainst": 1323.46,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "Duke  Buttdevils ",
+          "teamId": 8,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1124.24,
+          "pointsAgainst": 1290.54,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "JG's CBD Emporium",
+          "teamId": 9,
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "pointsFor": 1029.54,
+          "pointsAgainst": 1335.76,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "J-J-Jimmy  McQuacksCorn",
+          "homeScore": 81.7,
+          "awayManager": "Austin Ketter",
+          "awayTeam": "McCracker Quack",
+          "awayScore": 98.46,
+          "winner": "Austin Ketter",
+          "margin": 16.76
+        },
+        {
+          "matchupId": 94,
+          "week": 14,
+          "homeManager": "Tim Switzer",
+          "homeTeam": "The Hot Boy Warehouse",
+          "homeScore": 136.74,
+          "awayManager": "Bradley Dillon",
+          "awayTeam": "Team Bitties",
+          "awayScore": 90.48,
+          "winner": "Tim Switzer",
+          "margin": 46.26
+        },
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "Great White Hope",
+          "homeScore": 120.66,
+          "awayManager": "Austin Ketter",
+          "awayTeam": "McCracker Quack",
+          "awayScore": 118.72,
+          "winner": "Wes Dempsey",
+          "margin": 1.94
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Peter Ganz",
+          "homeTeam": "Fresh out of AJ Greenz",
+          "homeScore": 155.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 128.82,
+          "winner": "Peter Ganz",
+          "margin": 26.96
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "Great White Hope",
+          "homeScore": 137.78,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Fresh out of AJ Greenz",
+          "awayScore": 149.92,
+          "winner": "Peter Ganz",
+          "margin": 12.14
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Wes Dempsey",
+          "teamName": "Great White Hope",
+          "teamId": 5,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1497.24,
+          "pointsAgainst": 1125.12,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        "mostPoints": {
+          "manager": "Wes Dempsey",
+          "teamName": "Great White Hope",
+          "teamId": 5,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "pointsFor": 1497.24,
+          "pointsAgainst": 1125.12,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        "highestScore": {
+          "manager": "Wes Dempsey",
+          "team": "Great White Hope",
+          "score": 185.56,
+          "week": 8
+        },
+        "lowestEligibleScore": {
+          "manager": "Alex Continenza",
+          "team": "Chief Slappinhoes",
+          "score": 41.44,
+          "week": 12
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 73,
+          "week": 11,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Pete Top / Kelbey Bottom",
+          "homeScore": 147.64,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "Duke  Buttdevils ",
+          "awayScore": 69.92,
+          "winner": "Will Leafstedt",
+          "margin": 77.72
+        },
+        "closestEligibleGame": {
+          "matchupId": 54,
+          "week": 8,
+          "homeManager": "Cody Leslie",
+          "homeTeam": "JG's CBD Emporium",
+          "homeScore": 107.94,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 107.72,
+          "winner": "Cody Leslie",
+          "margin": 0.22
+        },
+        "longestWinningStreak": {
+          "manager": "Wes Dempsey",
+          "streak": 6
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1352.76,
+          "pointsAgainst": 1227.72,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 94,
+          "week": 14,
+          "homeManager": "Tim Switzer",
+          "homeTeam": "The Hot Boy Warehouse",
+          "homeScore": 136.74,
+          "awayManager": "Bradley Dillon",
+          "awayTeam": "Team Bitties",
+          "awayScore": 90.48,
+          "winner": "Tim Switzer",
+          "margin": 46.26
+        },
+        "closestPlayoffGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "Great White Hope",
+          "homeScore": 120.66,
+          "awayManager": "Austin Ketter",
+          "awayTeam": "McCracker Quack",
+          "awayScore": 118.72,
+          "winner": "Wes Dempsey",
+          "margin": 1.94
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 91,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 96,
+        "averageTeamScore": 98.96,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2020,
+      "champion": {
+        "manager": "Kelbey Heider",
+        "teamName": "Long Dick of the Law",
+        "score": 191
+      },
+      "runnerUp": {
+        "manager": "Alex Continenza",
+        "teamName": "Chief Slappinhoes",
+        "score": 102.12
+      },
+      "championshipWeek": 16,
+      "standings": [
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1427.92,
+          "pointsAgainst": 1356.06,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1371.64,
+          "pointsAgainst": 1149.86,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Spain w/o the S",
+          "teamId": 2,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1449.54,
+          "pointsAgainst": 1362.12,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "Joe Smith's Dab Express",
+          "teamId": 8,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1432.38,
+          "pointsAgainst": 1426.28,
+          "playoffResult": "Playoffs — 12th",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Ben Christianson",
+          "teamName": "Handcuff 123",
+          "teamId": 6,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1336.14,
+          "pointsAgainst": 1316.48,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Pete's  Team ",
+          "teamId": 3,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1281.64,
+          "pointsAgainst": 1296.62,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "The Simp Saloon",
+          "teamId": 4,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1215.6,
+          "pointsAgainst": 1273.48,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1410.32,
+          "pointsAgainst": 1306.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "teamId": 13,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1352.18,
+          "pointsAgainst": 1398.26,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "Toss My Salad",
+          "teamId": 12,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1343.04,
+          "pointsAgainst": 1254.74,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "Jack's Home for Scorching Gents",
+          "teamId": 11,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1255.32,
+          "pointsAgainst": 1371.96,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1271.2,
+          "pointsAgainst": 1431.94,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1263.36,
+          "pointsAgainst": 1317.46,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1182.62,
+          "pointsAgainst": 1331.46,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 93,
+          "week": 14,
+          "homeManager": "Jawad Najdawi",
+          "homeTeam": "Joe Smith's Dab Express",
+          "homeScore": 110.1,
+          "awayManager": "Ben Christianson",
+          "awayTeam": "Handcuff 123",
+          "awayScore": 139.76,
+          "winner": "Ben Christianson",
+          "margin": 29.66
+        },
+        {
+          "matchupId": 94,
+          "week": 14,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Spain w/o the S",
+          "homeScore": 99.82,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Pete's  Team ",
+          "awayScore": 119.12,
+          "winner": "Peter Ganz",
+          "margin": 19.3
+        },
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 105.34,
+          "awayManager": "Ben Christianson",
+          "awayTeam": "Handcuff 123",
+          "awayScore": 96.02,
+          "winner": "Kelbey Heider",
+          "margin": 9.32
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Alex Continenza",
+          "homeTeam": "Chief Slappinhoes",
+          "homeScore": 112.76,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Pete's  Team ",
+          "awayScore": 95.92,
+          "winner": "Alex Continenza",
+          "margin": 16.84
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 191,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 102.12,
+          "winner": "Kelbey Heider",
+          "margin": 88.88
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1427.92,
+          "pointsAgainst": 1356.06,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "mostPoints": {
+          "manager": "Will Leafstedt",
+          "teamName": "Spain w/o the S",
+          "teamId": 2,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1449.54,
+          "pointsAgainst": 1362.12,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        "highestScore": {
+          "manager": "Kelbey Heider",
+          "team": "Long Dick of the Law",
+          "score": 191,
+          "week": 16
+        },
+        "lowestEligibleScore": {
+          "manager": "Austin Ketter",
+          "team": "McCracker Quack",
+          "score": 50.5,
+          "week": 7
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 56,
+          "week": 8,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "The Simp Saloon",
+          "homeScore": 66.98,
+          "awayManager": "Ben Christianson",
+          "awayTeam": "Handcuff 123",
+          "awayScore": 158.58,
+          "winner": "Ben Christianson",
+          "margin": 91.6
+        },
+        "closestEligibleGame": {
+          "matchupId": 45,
+          "week": 7,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "Toss My Salad",
+          "homeScore": 91.1,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Spain w/o the S",
+          "awayScore": 91.18,
+          "winner": "Will Leafstedt",
+          "margin": 0.08
+        },
+        "longestWinningStreak": {
+          "manager": "Jawad Najdawi",
+          "streak": 5
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1410.32,
+          "pointsAgainst": 1306.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 191,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 102.12,
+          "winner": "Kelbey Heider",
+          "margin": 88.88
+        },
+        "closestPlayoffGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 105.34,
+          "awayManager": "Ben Christianson",
+          "awayTeam": "Handcuff 123",
+          "awayScore": 96.02,
+          "winner": "Kelbey Heider",
+          "margin": 9.32
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 91,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 96,
+        "averageTeamScore": 102.94,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2021,
+      "champion": {
+        "manager": "Will Leafstedt",
+        "teamName": "Nut Kupp",
+        "score": 114
+      },
+      "runnerUp": {
+        "manager": "Bradley Dillon",
+        "teamName": "Henry's Heros",
+        "score": 50.82
+      },
+      "championshipWeek": 17,
+      "standings": [
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "Henry's Heros",
+          "teamId": 12,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1405.92,
+          "pointsAgainst": 1161.16,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Nut Kupp",
+          "teamId": 2,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1551,
+          "pointsAgainst": 1430.98,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Pete's Team",
+          "teamId": 3,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1505.86,
+          "pointsAgainst": 1345.1,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani #FreeOBJ",
+          "teamId": 9,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1485.56,
+          "pointsAgainst": 1403,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1500.4,
+          "pointsAgainst": 1374.92,
+          "playoffResult": "Playoffs — 8th",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1452.84,
+          "pointsAgainst": 1506.06,
+          "playoffResult": "Playoffs — 12th",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "Joe Smith's Dab Express",
+          "teamId": 8,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1390.16,
+          "pointsAgainst": 1418.7,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "Jack's Home for Scorching Gents",
+          "teamId": 11,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1566.96,
+          "pointsAgainst": 1504.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1540.42,
+          "pointsAgainst": 1486.78,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Ben Christianson",
+          "teamName": "Handcuff 123",
+          "teamId": 6,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1218.02,
+          "pointsAgainst": 1454.36,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "The Nebraska  Huskers ",
+          "teamId": 4,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1322.06,
+          "pointsAgainst": 1475.98,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Vanilla Gorilla",
+          "teamId": 13,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1208.18,
+          "pointsAgainst": 1342.04,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1331.38,
+          "pointsAgainst": 1463.58,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1278.78,
+          "pointsAgainst": 1390.7,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Cody Leslie",
+          "homeTeam": "Punani Dasani #FreeOBJ",
+          "homeScore": 101.34,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 91.4,
+          "winner": "Cody Leslie",
+          "margin": 9.94
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Peter Ganz",
+          "homeTeam": "Pete's Team",
+          "homeScore": 94.74,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 70.46,
+          "winner": "Peter Ganz",
+          "margin": 24.28
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "Henry's Heros",
+          "homeScore": 138.7,
+          "awayManager": "Cody Leslie",
+          "awayTeam": "Punani Dasani #FreeOBJ",
+          "awayScore": 100.04,
+          "winner": "Bradley Dillon",
+          "margin": 38.66
+        },
+        {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Nut Kupp",
+          "homeScore": 153.56,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Pete's Team",
+          "awayScore": 77.3,
+          "winner": "Will Leafstedt",
+          "margin": 76.26
+        },
+        {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "Henry's Heros",
+          "homeScore": 50.82,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Nut Kupp",
+          "awayScore": 114,
+          "winner": "Will Leafstedt",
+          "margin": 63.18
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Bradley Dillon",
+          "teamName": "Henry's Heros",
+          "teamId": 12,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1405.92,
+          "pointsAgainst": 1161.16,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        "mostPoints": {
+          "manager": "Jack Haley",
+          "teamName": "Jack's Home for Scorching Gents",
+          "teamId": 11,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1566.96,
+          "pointsAgainst": 1504.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 5
+        },
+        "highestScore": {
+          "manager": "Peter Ganz",
+          "team": "Pete's Team",
+          "score": 169.48,
+          "week": 5
+        },
+        "lowestEligibleScore": {
+          "manager": "Ben Christianson",
+          "team": "Handcuff 123",
+          "score": 44.66,
+          "week": 12
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 69,
+          "week": 10,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 161.54,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "Joe Smith's Dab Express",
+          "awayScore": 73.44,
+          "winner": "Kelbey Heider",
+          "margin": 88.1
+        },
+        "closestEligibleGame": {
+          "matchupId": 74,
+          "week": 11,
+          "homeManager": "Shawn Smith",
+          "homeTeam": "Vanilla Gorilla",
+          "homeScore": 92.68,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Nut Kupp",
+          "awayScore": 92.66,
+          "winner": "Shawn Smith",
+          "margin": 0.02
+        },
+        "longestWinningStreak": {
+          "manager": "Will Leafstedt",
+          "streak": 6
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Jack Haley",
+          "teamName": "Jack's Home for Scorching Gents",
+          "teamId": 11,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1566.96,
+          "pointsAgainst": 1504.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 5
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Nut Kupp",
+          "homeScore": 153.56,
+          "awayManager": "Peter Ganz",
+          "awayTeam": "Pete's Team",
+          "awayScore": 77.3,
+          "winner": "Will Leafstedt",
+          "margin": 76.26
+        },
+        "closestPlayoffGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Cody Leslie",
+          "homeTeam": "Punani Dasani #FreeOBJ",
+          "homeScore": 101.34,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 91.4,
+          "winner": "Cody Leslie",
+          "margin": 9.94
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 98,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 103,
+        "averageTeamScore": 100.73,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2022,
+      "champion": {
+        "manager": "Jawad Najdawi",
+        "teamName": "Joe Smith's Dab Express",
+        "score": 113.76
+      },
+      "runnerUp": {
+        "manager": "Alex Continenza",
+        "teamName": "Chief Slappinhoes",
+        "score": 91.7
+      },
+      "championshipWeek": 17,
+      "standings": [
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Cody the Clown 🤡",
+          "teamId": 2,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1513.04,
+          "pointsAgainst": 1177.64,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "Magikarp  won't evolve",
+          "teamId": 4,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1494.9,
+          "pointsAgainst": 1280.74,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "NoCondom Foreva",
+          "teamId": 12,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1493.66,
+          "pointsAgainst": 1473.44,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "Joe Smith's Dab Express",
+          "teamId": 8,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1475.78,
+          "pointsAgainst": 1374.06,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1469.94,
+          "pointsAgainst": 1344.12,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1342.34,
+          "pointsAgainst": 1391.6,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1444.06,
+          "pointsAgainst": 1376.54,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1263.58,
+          "pointsAgainst": 1358.3,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "A Nu Start",
+          "teamId": 11,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1340.2,
+          "pointsAgainst": 1398.68,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1293.98,
+          "pointsAgainst": 1396.1,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Vanilla Gorilla",
+          "teamId": 13,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1177.82,
+          "pointsAgainst": 1367.68,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1360.2,
+          "pointsAgainst": 1383.88,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Ben Christianson",
+          "teamName": "Handcuff 123",
+          "teamId": 6,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1257.84,
+          "pointsAgainst": 1423.42,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Pete's Team",
+          "teamId": 3,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1229.38,
+          "pointsAgainst": 1410.52,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Jawad Najdawi",
+          "homeTeam": "Joe Smith's Dab Express",
+          "homeScore": 104.08,
+          "awayManager": "Cody Leslie",
+          "awayTeam": "Punani Dasani",
+          "awayScore": 97.22,
+          "winner": "Jawad Najdawi",
+          "margin": 6.86
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "NoCondom Foreva",
+          "homeScore": 106.44,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 124.4,
+          "winner": "Alex Continenza",
+          "margin": 17.96
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Cody the Clown 🤡",
+          "homeScore": 82.88,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "Joe Smith's Dab Express",
+          "awayScore": 113.66,
+          "winner": "Jawad Najdawi",
+          "margin": 30.78
+        },
+        {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "Magikarp  won't evolve",
+          "homeScore": 91.92,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 96.6,
+          "winner": "Alex Continenza",
+          "margin": 4.68
+        },
+        {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Jawad Najdawi",
+          "homeTeam": "Joe Smith's Dab Express",
+          "homeScore": 113.76,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 91.7,
+          "winner": "Jawad Najdawi",
+          "margin": 22.06
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Will Leafstedt",
+          "teamName": "Cody the Clown 🤡",
+          "teamId": 2,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1513.04,
+          "pointsAgainst": 1177.64,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        "mostPoints": {
+          "manager": "Will Leafstedt",
+          "teamName": "Cody the Clown 🤡",
+          "teamId": 2,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1513.04,
+          "pointsAgainst": 1177.64,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        "highestScore": {
+          "manager": "Cody Leslie",
+          "team": "Punani Dasani",
+          "score": 176.42,
+          "week": 8
+        },
+        "lowestEligibleScore": {
+          "manager": "Ben Christianson",
+          "team": "Handcuff 123",
+          "score": 28.98,
+          "week": 14
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 80,
+          "week": 12,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Cody the Clown 🤡",
+          "homeScore": 170.22,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 77.9,
+          "winner": "Will Leafstedt",
+          "margin": 92.32
+        },
+        "closestEligibleGame": {
+          "matchupId": 41,
+          "week": 6,
+          "homeManager": "Jack Haley",
+          "homeTeam": "A Nu Start",
+          "homeScore": 95.62,
+          "awayManager": "Will Leafstedt",
+          "awayTeam": "Cody the Clown 🤡",
+          "awayScore": 95.76,
+          "winner": "Will Leafstedt",
+          "margin": 0.14
+        },
+        "longestWinningStreak": {
+          "manager": "Will Leafstedt",
+          "streak": 5
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1444.06,
+          "pointsAgainst": 1376.54,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Cody the Clown 🤡",
+          "homeScore": 82.88,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "Joe Smith's Dab Express",
+          "awayScore": 113.66,
+          "winner": "Jawad Najdawi",
+          "margin": 30.78
+        },
+        "closestPlayoffGame": {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "Magikarp  won't evolve",
+          "homeScore": 91.92,
+          "awayManager": "Alex Continenza",
+          "awayTeam": "Chief Slappinhoes",
+          "awayScore": 96.6,
+          "winner": "Alex Continenza",
+          "margin": 4.68
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 98,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 103,
+        "averageTeamScore": 97.96,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2023,
+      "champion": {
+        "manager": "Kelbey Heider",
+        "teamName": "Long Dick of the Law",
+        "score": 102.78
+      },
+      "runnerUp": {
+        "manager": "Tim Switzer",
+        "teamName": "The Hot Boy Warehouse",
+        "score": 95
+      },
+      "championshipWeek": 17,
+      "standings": [
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Pete's Team",
+          "teamId": 3,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1506.66,
+          "pointsAgainst": 1314.72,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Zeeked up off them bars",
+          "teamId": 2,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1430,
+          "pointsAgainst": 1385.54,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Jason Nitz",
+          "teamName": "Jitz's little darlings ",
+          "teamId": 6,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1413.6,
+          "pointsAgainst": 1358.42,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Big Swiftie Guy",
+          "teamId": 13,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1418.86,
+          "pointsAgainst": 1422.86,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1391,
+          "pointsAgainst": 1329.32,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1489.4,
+          "pointsAgainst": 1361.9,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1397.3,
+          "pointsAgainst": 1561.32,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "A Nu Start",
+          "teamId": 11,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1388.5,
+          "pointsAgainst": 1324.82,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani 🤌🤌",
+          "teamId": 9,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1371.94,
+          "pointsAgainst": 1377.94,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "The Farm ",
+          "teamId": 12,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1555.32,
+          "pointsAgainst": 1464.86,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1182.56,
+          "pointsAgainst": 1297.74,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "LaBackdoora Express",
+          "teamId": 8,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1365.24,
+          "pointsAgainst": 1439.38,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1283.82,
+          "pointsAgainst": 1382.94,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "Swarm of locust ",
+          "teamId": 4,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1349.74,
+          "pointsAgainst": 1522.18,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Shawn Smith",
+          "homeTeam": "Big Swiftie Guy",
+          "homeScore": 106.68,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 117.62,
+          "winner": "Kelbey Heider",
+          "margin": 10.94
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Jason Nitz",
+          "homeTeam": "Jitz's little darlings ",
+          "homeScore": 103.56,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 123.54,
+          "winner": "Tim Switzer",
+          "margin": 19.98
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Peter Ganz",
+          "homeTeam": "Pete's Team",
+          "homeScore": 90.24,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 108.24,
+          "winner": "Kelbey Heider",
+          "margin": 18
+        },
+        {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Zeeked up off them bars",
+          "homeScore": 71.42,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 106.4,
+          "winner": "Tim Switzer",
+          "margin": 34.98
+        },
+        {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 102.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 95,
+          "winner": "Kelbey Heider",
+          "margin": 7.78
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Peter Ganz",
+          "teamName": "Pete's Team",
+          "teamId": 3,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1506.66,
+          "pointsAgainst": 1314.72,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        "mostPoints": {
+          "manager": "Bradley Dillon",
+          "teamName": "The Farm ",
+          "teamId": 12,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1555.32,
+          "pointsAgainst": 1464.86,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        "highestScore": {
+          "manager": "Tim Switzer",
+          "team": "The Hot Boy Warehouse",
+          "score": 172.54,
+          "week": 3
+        },
+        "lowestEligibleScore": {
+          "manager": "Alex Continenza",
+          "team": "Chief Slappinhoes",
+          "score": 41.7,
+          "week": 4
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 67,
+          "week": 10,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "The Farm ",
+          "homeScore": 155.34,
+          "awayManager": "Austin Ketter",
+          "awayTeam": "McCracker Quack",
+          "awayScore": 61.62,
+          "winner": "Bradley Dillon",
+          "margin": 93.72
+        },
+        "closestEligibleGame": {
+          "matchupId": 71,
+          "week": 11,
+          "homeManager": "Jack Haley",
+          "homeTeam": "A Nu Start",
+          "homeScore": 74.4,
+          "awayManager": "Jason Nitz",
+          "awayTeam": "Jitz's little darlings ",
+          "awayScore": 74.44,
+          "winner": "Jason Nitz",
+          "margin": 0.04
+        },
+        "longestWinningStreak": {
+          "manager": "Peter Ganz",
+          "streak": 8
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Bradley Dillon",
+          "teamName": "The Farm ",
+          "teamId": 12,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1555.32,
+          "pointsAgainst": 1464.86,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "Zeeked up off them bars",
+          "homeScore": 71.42,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 106.4,
+          "winner": "Tim Switzer",
+          "margin": 34.98
+        },
+        "closestPlayoffGame": {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 102.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 95,
+          "winner": "Kelbey Heider",
+          "margin": 7.78
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 98,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 103,
+        "averageTeamScore": 99.85,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2024,
+      "champion": {
+        "manager": "Wes Dempsey",
+        "teamName": "The Kekambas",
+        "score": 126.82
+      },
+      "runnerUp": {
+        "manager": "Tim Switzer",
+        "teamName": "The Hot Boy Warehouse",
+        "score": 102.28
+      },
+      "championshipWeek": 17,
+      "standings": [
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 1621.28,
+          "pointsAgainst": 1390.12,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pointsFor": 1535.64,
+          "pointsAgainst": 1312.48,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Jason Nitz",
+          "teamName": "Mash Potato Brains ",
+          "teamId": 6,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1615.9,
+          "pointsAgainst": 1370.84,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "EMA",
+          "teamId": 2,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1431.66,
+          "pointsAgainst": 1367.84,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1424.32,
+          "pointsAgainst": 1378.12,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "LaNotDed",
+          "teamId": 8,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1419.3,
+          "pointsAgainst": 1437.34,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Marvin Gaye and Charbonnet",
+          "teamId": 3,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1417.78,
+          "pointsAgainst": 1324.56,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "Sad bc owe celbey runza ",
+          "teamId": 4,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1364.68,
+          "pointsAgainst": 1409.02,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1362.96,
+          "pointsAgainst": 1417.86,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1291.98,
+          "pointsAgainst": 1415.98,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "SKOL",
+          "teamId": 11,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1309.98,
+          "pointsAgainst": 1473.08,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "The Farm ",
+          "teamId": 12,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1329.86,
+          "pointsAgainst": 1422.46,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Big Swiftie Guy",
+          "teamId": 13,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1300.5,
+          "pointsAgainst": 1490.78,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "pointsFor": 1345.56,
+          "pointsAgainst": 1560.92,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "EMA",
+          "homeScore": 122.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 123.14,
+          "winner": "Tim Switzer",
+          "margin": 0.36
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Jason Nitz",
+          "homeTeam": "Mash Potato Brains ",
+          "homeScore": 71.14,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "LaNotDed",
+          "awayScore": 118.18,
+          "winner": "Jawad Najdawi",
+          "margin": 47.04
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Cody Leslie",
+          "homeTeam": "Punani Dasani",
+          "homeScore": 122.18,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 167.54,
+          "winner": "Tim Switzer",
+          "margin": 45.36
+        },
+        {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "The Kekambas",
+          "homeScore": 111.14,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "LaNotDed",
+          "awayScore": 109.46,
+          "winner": "Wes Dempsey",
+          "margin": 1.68
+        },
+        {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "The Kekambas",
+          "homeScore": 126.82,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 102.28,
+          "winner": "Wes Dempsey",
+          "margin": 24.54
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 1621.28,
+          "pointsAgainst": 1390.12,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        "mostPoints": {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 1621.28,
+          "pointsAgainst": 1390.12,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        "highestScore": {
+          "manager": "Tim Switzer",
+          "team": "The Hot Boy Warehouse",
+          "score": 167.54,
+          "week": 16
+        },
+        "lowestEligibleScore": {
+          "manager": "Peter Ganz",
+          "team": "Marvin Gaye and Charbonnet",
+          "score": 56.64,
+          "week": 11
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 20,
+          "week": 3,
+          "homeManager": "Shawn Smith",
+          "homeTeam": "Big Swiftie Guy",
+          "homeScore": 76.28,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 148.48,
+          "winner": "Kelbey Heider",
+          "margin": 72.2
+        },
+        "closestEligibleGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "EMA",
+          "homeScore": 122.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 123.14,
+          "winner": "Tim Switzer",
+          "margin": 0.36
+        },
+        "longestWinningStreak": {
+          "manager": "Cody Leslie",
+          "streak": 13
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Peter Ganz",
+          "teamName": "Marvin Gaye and Charbonnet",
+          "teamId": 3,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1417.78,
+          "pointsAgainst": 1324.56,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Jason Nitz",
+          "homeTeam": "Mash Potato Brains ",
+          "homeScore": 71.14,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "LaNotDed",
+          "awayScore": 118.18,
+          "winner": "Jawad Najdawi",
+          "margin": 47.04
+        },
+        "closestPlayoffGame": {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Will Leafstedt",
+          "homeTeam": "EMA",
+          "homeScore": 122.78,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 123.14,
+          "winner": "Tim Switzer",
+          "margin": 0.36
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 98,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 103,
+        "averageTeamScore": 101.68,
+        "playoffTeams": 6
+      }
+    },
+    {
+      "year": 2025,
+      "champion": {
+        "manager": "Kelbey Heider",
+        "teamName": "Long Dick of the Law",
+        "score": 116.76
+      },
+      "runnerUp": {
+        "manager": "Wes Dempsey",
+        "teamName": "The Kekambas",
+        "score": 114.5
+      },
+      "championshipWeek": 17,
+      "standings": [
+        {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1642.64,
+          "pointsAgainst": 1536.6,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        {
+          "manager": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "teamId": 7,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1530,
+          "pointsAgainst": 1412.32,
+          "playoffResult": "Playoffs — 4th",
+          "finalStanding": 4
+        },
+        {
+          "manager": "Wes Dempsey",
+          "teamName": "The Kekambas",
+          "teamId": 5,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1477.4,
+          "pointsAgainst": 1438.74,
+          "playoffResult": "Runner-up",
+          "finalStanding": 2
+        },
+        {
+          "manager": "Jawad Najdawi",
+          "teamName": "Joe Smith's Dab Express ",
+          "teamId": 8,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pointsFor": 1456.76,
+          "pointsAgainst": 1369.7,
+          "playoffResult": "Playoffs — 3rd",
+          "finalStanding": 3
+        },
+        {
+          "manager": "Austin Ketter",
+          "teamName": "McCracker Quack",
+          "teamId": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1532.58,
+          "pointsAgainst": 1303.92,
+          "playoffResult": "Playoffs — 5th",
+          "finalStanding": 5
+        },
+        {
+          "manager": "Tim Switzer",
+          "teamName": "The Hot Boy Warehouse",
+          "teamId": 10,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1382.5,
+          "pointsAgainst": 1343.36,
+          "playoffResult": "Playoffs — 6th",
+          "finalStanding": 6
+        },
+        {
+          "manager": "Jason Nitz",
+          "teamName": "Smashing RB 3s",
+          "teamId": 6,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1351.12,
+          "pointsAgainst": 1309.16,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        {
+          "manager": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "teamId": 9,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pointsFor": 1247.54,
+          "pointsAgainst": 1308.7,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 14
+        },
+        {
+          "manager": "Cody Stalp",
+          "teamName": "Patrick star",
+          "teamId": 4,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1333.5,
+          "pointsAgainst": 1397.9,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 10
+        },
+        {
+          "manager": "Jack Haley",
+          "teamName": "Husker Mayer Weeyners",
+          "teamId": 11,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pointsFor": 1315.88,
+          "pointsAgainst": 1347.66,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 9
+        },
+        {
+          "manager": "Shawn Smith",
+          "teamName": "Regulators",
+          "teamId": 13,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1248.2,
+          "pointsAgainst": 1428.86,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 11
+        },
+        {
+          "manager": "Peter Ganz",
+          "teamName": "Marvin Gaye and Charbonnet",
+          "teamId": 3,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pointsFor": 1191.64,
+          "pointsAgainst": 1313.58,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 13
+        },
+        {
+          "manager": "Bradley Dillon",
+          "teamName": "The Veggie Garden ",
+          "teamId": 12,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1342.96,
+          "pointsAgainst": 1379.58,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 12
+        },
+        {
+          "manager": "Will Leafstedt",
+          "teamName": "Landfill of the Hottest Boys",
+          "teamId": 2,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pointsFor": 1313.46,
+          "pointsAgainst": 1476.1,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 7
+        }
+      ],
+      "playoffs": [
+        {
+          "matchupId": 100,
+          "week": 15,
+          "homeManager": "Jawad Najdawi",
+          "homeTeam": "Joe Smith's Dab Express ",
+          "homeScore": 168.94,
+          "awayManager": "Austin Ketter",
+          "awayTeam": "McCracker Quack",
+          "awayScore": 115.3,
+          "winner": "Jawad Najdawi",
+          "margin": 53.64
+        },
+        {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "The Kekambas",
+          "homeScore": 168.08,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 107.5,
+          "winner": "Wes Dempsey",
+          "margin": 60.58
+        },
+        {
+          "matchupId": 107,
+          "week": 16,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 157.88,
+          "awayManager": "Jawad Najdawi",
+          "awayTeam": "Joe Smith's Dab Express ",
+          "awayScore": 98.92,
+          "winner": "Kelbey Heider",
+          "margin": 58.96
+        },
+        {
+          "matchupId": 108,
+          "week": 16,
+          "homeManager": "Alex Continenza",
+          "homeTeam": "Chief Slappinhoes",
+          "homeScore": 89.32,
+          "awayManager": "Wes Dempsey",
+          "awayTeam": "The Kekambas",
+          "awayScore": 97.9,
+          "winner": "Wes Dempsey",
+          "margin": 8.58
+        },
+        {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 116.76,
+          "awayManager": "Wes Dempsey",
+          "awayTeam": "The Kekambas",
+          "awayScore": 114.5,
+          "winner": "Kelbey Heider",
+          "margin": 2.26
+        }
+      ],
+      "superlatives": {
+        "bestRecord": {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1642.64,
+          "pointsAgainst": 1536.6,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "mostPoints": {
+          "manager": "Kelbey Heider",
+          "teamName": "Long Dick of the Law",
+          "teamId": 1,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 1642.64,
+          "pointsAgainst": 1536.6,
+          "playoffResult": "Champion",
+          "finalStanding": 1
+        },
+        "highestScore": {
+          "manager": "Jawad Najdawi",
+          "team": "Joe Smith's Dab Express ",
+          "score": 168.94,
+          "week": 15
+        },
+        "lowestEligibleScore": {
+          "manager": "Peter Ganz",
+          "team": "Marvin Gaye and Charbonnet",
+          "score": 7.6,
+          "week": 14
+        },
+        "biggestRegularSeasonBlowout": {
+          "matchupId": 43,
+          "week": 7,
+          "homeManager": "Cody Stalp",
+          "homeTeam": "Patrick star",
+          "homeScore": 126.64,
+          "awayManager": "Shawn Smith",
+          "awayTeam": "Regulators",
+          "awayScore": 51.94,
+          "winner": "Cody Stalp",
+          "margin": 74.7
+        },
+        "closestEligibleGame": {
+          "matchupId": 49,
+          "week": 7,
+          "homeManager": "Bradley Dillon",
+          "homeTeam": "The Veggie Garden ",
+          "homeScore": 123.96,
+          "awayManager": "Kelbey Heider",
+          "awayTeam": "Long Dick of the Law",
+          "awayScore": 124.36,
+          "winner": "Kelbey Heider",
+          "margin": 0.4
+        },
+        "longestWinningStreak": {
+          "manager": "Jason Nitz",
+          "streak": 5
+        },
+        "highestScoringNonPlayoffTeam": {
+          "manager": "Jason Nitz",
+          "teamName": "Smashing RB 3s",
+          "teamId": 6,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pointsFor": 1351.12,
+          "pointsAgainst": 1309.16,
+          "playoffResult": "Missed playoffs",
+          "finalStanding": 8
+        },
+        "biggestPlayoffWin": {
+          "matchupId": 101,
+          "week": 15,
+          "homeManager": "Wes Dempsey",
+          "homeTeam": "The Kekambas",
+          "homeScore": 168.08,
+          "awayManager": "Tim Switzer",
+          "awayTeam": "The Hot Boy Warehouse",
+          "awayScore": 107.5,
+          "winner": "Wes Dempsey",
+          "margin": 60.58
+        },
+        "closestPlayoffGame": {
+          "matchupId": 114,
+          "week": 17,
+          "homeManager": "Kelbey Heider",
+          "homeTeam": "Long Dick of the Law",
+          "homeScore": 116.76,
+          "awayManager": "Wes Dempsey",
+          "awayTeam": "The Kekambas",
+          "awayScore": 114.5,
+          "winner": "Kelbey Heider",
+          "margin": 2.26
+        }
+      },
+      "numbers": {
+        "completedRegularSeasonGames": 98,
+        "completedChampionshipBracketGames": 5,
+        "totalEligibleCompletedGames": 103,
+        "averageTeamScore": 100.01,
+        "playoffTeams": 6
+      }
+    }
+  ]
+}

@@ -1,1 +1,2 @@
-import{PageHero}from"@/components/page-hero";export const metadata={title:"Weekly Recaps"};export default function Page(){return <><PageHero eyebrow="From the commissioner’s desk" title="Weekly Recaps" intro="A permanent home for future commissioner-authored weekly stories."/><section className="container"><div className="surface mx-auto max-w-3xl p-12 text-center"><p className="eyebrow">Editorial desk</p><h2 className="display mt-5 text-5xl">Coming Soon</h2><p className="mt-5 text-[#929fa7]">Historical recaps have not been authored. No synthetic stories are presented as league history.</p></div></section></>}
+import { redirect } from "next/navigation";
+export default function RecapsIndex(){redirect("/recaps/2025")}

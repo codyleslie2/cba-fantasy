@@ -7,7 +7,7 @@ export default function Page() {
   const graveyard = realManagers.filter((manager) => manager.status === "inactive");
   return <>
     <div className="border-b border-[#29323a] bg-[radial-gradient(circle_at_50%_0,#28312e,#080c0d_65%)]">
-      <PageHero eyebrow="Gone from the league, never erased" title="CBA Graveyard" intro="The verified careers of former CBA managers, preserved under permanent human identities." />
+      <PageHero eyebrow="Former members" title="CBA Graveyard" intro="Gone from the group chat lineup. Still very much in the record book." />
     </div>
     <section className="container mt-12 grid gap-5">
       {graveyard.map((manager) => <article className="surface grid gap-6 border-l-4 border-l-[#66746f] p-7 lg:grid-cols-[1fr_2fr]" key={manager.id}>

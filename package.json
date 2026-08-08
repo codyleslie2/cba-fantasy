@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "import:espn": "tsx scripts/import-espn.ts",
     "build:data": "tsx scripts/build-cba-history.ts",
+    "build:recaps": "tsx scripts/build-season-recaps.ts",
     "test": "tsx --test tests/**/*.test.ts"
   },
   "dependencies": {
