@@ -1,0 +1,4 @@
+import { NextRequest,NextResponse } from "next/server";
+import { AUTH_COOKIE_NAME,isProtectedPath,verifySessionToken } from "@/lib/site-auth";
+export async function proxy(request:NextRequest){if(!isProtectedPath(request.nextUrl.pathname))return NextResponse.next();const valid=await verifySessionToken(request.cookies.get(AUTH_COOKIE_NAME)?.value,process.env.CBA_AUTH_SECRET);if(!valid){const login=new URL("/login",request.url);login.searchParams.set("next",`${request.nextUrl.pathname}${request.nextUrl.search}`);return NextResponse.redirect(login);}const response=NextResponse.next();response.headers.set("Cache-Control","private, no-store");response.headers.set("Vary","Cookie");response.headers.set("X-Robots-Tag","noindex, nofollow, noarchive");return response;}
+export const config={matcher:["/","/history/:path*","/standings/:path*","/head-to-head/:path*","/records/:path*","/owners/:path*","/graveyard/:path*","/analytics/:path*","/recaps/:path*"]};

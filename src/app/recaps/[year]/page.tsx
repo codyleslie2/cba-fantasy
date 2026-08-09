@@ -19,7 +19,7 @@ export default async function SeasonRecapPage({params}:{params:Promise<{year:str
   const awards=buildAwards(facts);
   return <>
     <header className="container py-10 md:py-14">
-      <div className="flex flex-wrap items-center justify-between gap-4"><p className="eyebrow">Season Recap</p><SeasonSelector year={year}/></div>
+      <div className="flex flex-wrap items-center justify-between gap-4"><p className="eyebrow">Season Recap</p><SeasonSelector year={year} years={completedRecapYears}/></div>
       <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_440px] lg:items-end"><div><h1 className="display text-5xl leading-none sm:text-7xl">{year} CBA Season</h1><p className="mt-4 max-w-2xl text-lg leading-7 text-[#a5adb6]">The standings, bracket, receipts, and appropriately limited commentary.</p></div><div className="surface grid grid-cols-2 gap-4 p-5"><div><p className="eyebrow">CBA Champion</p><p className="mt-2 text-xl font-bold text-[#dfb65f]">{facts.champion.manager}</p><p className="text-xs text-[#929ba5]">{facts.champion.teamName}</p></div><div className="border-l border-[#433238] pl-4"><p className="eyebrow text-[#c48a83]">Stupidest Loser</p><p className="mt-2 text-xl font-bold">{punishment.managerName}</p><p className="text-xs text-[#929ba5]">{punishment.teamName}</p></div><div className="col-span-2 border-t border-[#292f38] pt-4"><p className="text-xs text-[#929ba5]">Championship score · over {facts.runnerUp.manager}</p><p className="stat-number mt-1 text-3xl">{facts.champion.score.toFixed(2)}–{facts.runnerUp.score.toFixed(2)}</p></div></div></div>
     </header>
     <div className="container space-y-14">
