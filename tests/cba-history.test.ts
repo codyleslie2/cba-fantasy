@@ -1,8 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import data from "../data/generated/cba-site-data.json";
+import identities from "../data/manager-identities.json";
 
-test("commissioner aliases combine Jason Nitz and Jack Haley careers",()=>{const jason=data.managers.find(m=>m.fullName==="Jason Nitz")!;const jack=data.managers.find(m=>m.fullName==="Jack Haley")!;assert.deepEqual(jason.espnAliases,["jasonn0256704","espn42896775"]);assert.deepEqual(jack.espnAliases,["Ugadawgz0612","espnfan97838955"]);assert.deepEqual(jason.seasonHistory.map(s=>s.year),[2017,2018,2023,2024,2025,2026]);assert.equal(jack.seasonsPlayed,10)});
+test("commissioner aliases combine Jason Nitz and Jack Haley careers without entering public data",()=>{const jason=data.managers.find(m=>m.fullName==="Jason Nitz")!;const jack=data.managers.find(m=>m.fullName==="Jack Haley")!;const jasonIdentity=identities.managers.find(m=>m.fullName==="Jason Nitz")!;const jackIdentity=identities.managers.find(m=>m.fullName==="Jack Haley")!;assert.deepEqual(jasonIdentity.espnAliases,["jasonn0256704","espn42896775"]);assert.deepEqual(jackIdentity.espnAliases,["Ugadawgz0612","espnfan97838955"]);assert.equal("espnAliases" in jason,false);assert.equal("espnAliases" in jack,false);assert.deepEqual(jason.seasonHistory.map(s=>s.year),[2017,2018,2023,2024,2025,2026]);assert.equal(jack.seasonsPlayed,10)});
 test("H2H records are symmetric",()=>{for(const row of data.h2h){const reverse=data.h2h.find(r=>r.managerId===row.opponentId&&r.opponentId===row.managerId)!;assert.equal(row.wins,reverse.losses);assert.equal(row.losses,reverse.wins);assert.equal(row.ties,reverse.ties);assert.equal(row.pointsFor,reverse.pointsAgainst)}});
 test("championship history has nine resolved completed seasons",()=>{assert.equal(data.championships.length,9);assert.deepEqual(data.championships.map(c=>c.year),[2017,2018,2019,2020,2021,2022,2023,2024,2025]);assert.equal(data.championships.filter(c=>c.championName==="Kelbey Heider").length,4)});
 test("regular season league wins and losses balance",()=>{assert.equal(data.managers.reduce((n,m)=>n+m.wins,0),data.managers.reduce((n,m)=>n+m.losses,0))});

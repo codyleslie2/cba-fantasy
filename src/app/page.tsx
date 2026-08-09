@@ -6,11 +6,14 @@ import { cbaData, managerById } from "@/data/real";
 export default function Home() {
   const recent = cbaData.championships.at(-1)!;
   const rivalry = cbaData.rivalries.mostPlayed;
+  const mostChampionships = Math.max(...cbaData.managers.map(manager => manager.championships));
+  const championshipLeaders = cbaData.managers.filter(manager => manager.championships === mostChampionships);
+  const championshipLeaderNames = championshipLeaders.map(manager => manager.fullName).join(" · ");
   const metrics = [
-    [String(cbaData.league.firstSeason), "Established"],
-    [String(cbaData.managers.length), "All-Time Managers"],
-    [String(cbaData.championships.length), "Completed Seasons"],
-    [String(cbaData.championships.length), "Championships Awarded"],
+    { value:String(cbaData.league.firstSeason), label:"Established" },
+    { value:String(cbaData.managers.length), label:"All-Time Managers" },
+    { value:String(cbaData.championships.length), label:"Championships Awarded" },
+    { value:String(mostChampionships), label:"Most Championships", detail:championshipLeaderNames },
   ];
 
   return <>
@@ -19,7 +22,7 @@ export default function Home() {
         <p className="eyebrow mb-4">CBA since 2017</p>
         <h1 className="display text-[clamp(5rem,14vw,8.5rem)] leading-[.78]">CBA</h1>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-[#f3f4f1] sm:text-4xl">Fantasy football since 2017.</h2>
-        <p className="mt-4 max-w-xl text-base leading-7 text-[#a5adb6] sm:text-lg">10 seasons of bad trades, worse lineup decisions, and documented receipts.</p>
+        <p className="mt-4 max-w-xl text-base leading-7 text-[#a5adb6] sm:text-lg">Stats, rivalries, championships, and receipts.</p>
         <div className="mt-7 flex flex-wrap gap-3">
           <Link href="/history" className="flex min-h-11 items-center rounded-lg bg-[#d6a84b] px-5 py-3 text-sm font-bold text-[#17130b] transition hover:bg-[#e3b95f]">League History</Link>
           <Link href="/standings" className="flex min-h-11 items-center rounded-lg border border-[#46505b] bg-[#171b21] px-5 py-3 text-sm font-bold transition hover:border-[#68727d] hover:bg-[#1d2229]">All-Time Standings</Link>
@@ -27,7 +30,7 @@ export default function Home() {
       </div>
       <aside className="surface p-5 sm:p-7">
         <p className="eyebrow">League at a Glance</p>
-        <div className="mt-5 grid grid-cols-2 gap-3">{metrics.map(([value,label])=><div className="rounded-xl border border-[#292f38] bg-[#11151a] p-4" key={label}><b className="stat-number text-3xl text-[#f3f4f1] sm:text-4xl">{value}</b><p className="mt-1 text-xs leading-5 text-[#929ba5]">{label}</p></div>)}</div>
+        <div className="mt-5 grid grid-cols-2 gap-3">{metrics.map(metric=><div className="rounded-xl border border-[#292f38] bg-[#11151a] p-4" key={metric.label}><b className="stat-number text-3xl text-[#f3f4f1] sm:text-4xl">{metric.value}</b><p className="mt-1 text-xs leading-5 text-[#929ba5]">{metric.label}</p>{metric.detail&&<p className="mt-1 text-xs font-semibold leading-5 text-[#d8c18e]">{metric.detail}</p>}</div>)}</div>
       </aside>
     </section>
 

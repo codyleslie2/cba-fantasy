@@ -11,4 +11,4 @@ export interface RecapSeasonFacts {
   superlatives:{bestRecord:RecapStanding;mostPoints:RecapStanding;highestScore:ScoreFact;lowestEligibleScore:ScoreFact;biggestRegularSeasonBlowout:RecapGame;closestEligibleGame:RecapGame;longestWinningStreak:{manager:string;streak:number};highestScoringNonPlayoffTeam:RecapStanding|null;biggestPlayoffWin:RecapGame|null;closestPlayoffGame:RecapGame|null};
   numbers:{completedRegularSeasonGames:number;completedChampionshipBracketGames:number;totalEligibleCompletedGames:number;averageTeamScore:number;playoffTeams:number};
 }
-export interface RecapEditorial { review:string[]; championship:string; managerSummaries:Record<string,string> }
+export interface RecapEditorial { review:string[]; championship:string; stupidestLoser:string; managerSummaries:Record<string,string> }

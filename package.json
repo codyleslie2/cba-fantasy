@@ -11,6 +11,7 @@
     "import:espn": "tsx scripts/import-espn.ts",
     "build:data": "tsx scripts/build-cba-history.ts",
     "build:recaps": "tsx scripts/build-season-recaps.ts",
+    "build:punishment-review": "tsx scripts/build-punishment-review.ts",
     "test": "tsx --test tests/**/*.test.ts"
   },
   "dependencies": {

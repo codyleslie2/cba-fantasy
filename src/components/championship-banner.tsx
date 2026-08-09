@@ -21,8 +21,8 @@ export function ChampionshipBanner({ championship, index = 0 }: { championship: 
         <div className="banner-label">CBA Champion</div>
         <div className="banner-name"><span>{firstName}</span><span>{lastName}</span></div>
         <div className={`banner-team ${longTeamName ? "banner-team-long" : ""}`}><span>{championship.championTeamName}</span></div>
-        <span className="banner-hint">View season →</span>
       </div>
+      <span className="banner-view-season">View Season →</span>
     </article>
   </Link>;
 }

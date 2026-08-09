@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T04:26:19.778Z",
+  "generatedAt": "2026-08-09T03:21:18.018Z",
   "provisional": false,
   "identityVersion": 1,
   "league": {
@@ -14,9 +14,6 @@
       "slug": "kelbey-heider",
       "fullName": "Kelbey Heider",
       "status": "active",
-      "espnAliases": [
-        "Kelbsta2010"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -43,6 +40,14 @@
         2023,
         2025
       ],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 4,
+      "punishmentBracketWins": 9,
+      "punishmentBracketLosses": 3,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2018,
         "complete": true,
@@ -363,9 +368,6 @@
       "slug": "will-leafstedt",
       "fullName": "Will Leafstedt",
       "status": "active",
-      "espnAliases": [
-        "willleafstedt"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -389,6 +391,14 @@
       "championshipSeasons": [
         2021
       ],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 2,
+      "punishmentBracketWins": 3,
+      "punishmentBracketLosses": 3,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -709,9 +719,6 @@
       "slug": "peter-ganz",
       "fullName": "Peter Ganz",
       "status": "active",
-      "espnAliases": [
-        "peterw9799032"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -735,6 +742,14 @@
       "championshipSeasons": [
         2019
       ],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 4,
+      "punishmentBracketWins": 8,
+      "punishmentBracketLosses": 4,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 2,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -1055,9 +1070,6 @@
       "slug": "cody-stalp",
       "fullName": "Cody Stalp",
       "status": "active",
-      "espnAliases": [
-        "cstalprun"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -1081,6 +1093,16 @@
       "championshipSeasons": [
         2017
       ],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2021
+      ],
+      "punishmentBracketAppearances": 5,
+      "punishmentBracketWins": 9,
+      "punishmentBracketLosses": 6,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 0.8,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -1401,9 +1423,6 @@
       "slug": "wes-dempsey",
       "fullName": "Wes Dempsey",
       "status": "active",
-      "espnAliases": [
-        "wdemps8"
-      ],
       "firstSeason": 2018,
       "lastSeason": 2026,
       "seasonsPlayed": 9,
@@ -1427,6 +1446,14 @@
       "championshipSeasons": [
         2024
       ],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 5,
+      "punishmentBracketWins": 5,
+      "punishmentBracketLosses": 9,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2019,
         "complete": true,
@@ -1727,10 +1754,6 @@
       "slug": "jason-nitz",
       "fullName": "Jason Nitz",
       "status": "active",
-      "espnAliases": [
-        "jasonn0256704",
-        "espn42896775"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 6,
@@ -1752,6 +1775,14 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 3,
+      "punishmentBracketWins": 4,
+      "punishmentBracketLosses": 5,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2024,
         "complete": true,
@@ -1992,9 +2023,6 @@
       "slug": "alex-continenza",
       "fullName": "Alex Continenza",
       "status": "active",
-      "espnAliases": [
-        "Alex952892"
-      ],
       "firstSeason": 2019,
       "lastSeason": 2026,
       "seasonsPlayed": 8,
@@ -2016,6 +2044,16 @@
       "championshipLosses": 2,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2019
+      ],
+      "punishmentBracketAppearances": 4,
+      "punishmentBracketWins": 4,
+      "punishmentBracketLosses": 7,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 0.75,
       "bestSeason": {
         "year": 2020,
         "complete": true,
@@ -2296,9 +2334,6 @@
       "slug": "jawad-najdawi",
       "fullName": "Jawad Najdawi",
       "status": "active",
-      "espnAliases": [
-        "AFL since92"
-      ],
       "firstSeason": 2018,
       "lastSeason": 2026,
       "seasonsPlayed": 9,
@@ -2322,6 +2357,14 @@
       "championshipSeasons": [
         2022
       ],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 5,
+      "punishmentBracketWins": 6,
+      "punishmentBracketLosses": 7,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2022,
         "complete": true,
@@ -2622,9 +2665,6 @@
       "slug": "cody-leslie",
       "fullName": "Cody Leslie",
       "status": "active",
-      "espnAliases": [
-        "codyle7290469"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -2646,6 +2686,16 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2025
+      ],
+      "punishmentBracketAppearances": 5,
+      "punishmentBracketWins": 9,
+      "punishmentBracketLosses": 6,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 0.8,
       "bestSeason": {
         "year": 2024,
         "complete": true,
@@ -2966,9 +3016,6 @@
       "slug": "tim-switzer",
       "fullName": "Tim Switzer",
       "status": "active",
-      "espnAliases": [
-        "tswitz27"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -2990,6 +3037,14 @@
       "championshipLosses": 2,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 3,
+      "punishmentBracketWins": 4,
+      "punishmentBracketLosses": 3,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2019,
         "complete": true,
@@ -3310,10 +3365,6 @@
       "slug": "jack-haley",
       "fullName": "Jack Haley",
       "status": "active",
-      "espnAliases": [
-        "Ugadawgz0612",
-        "espnfan97838955"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -3335,6 +3386,16 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2023
+      ],
+      "punishmentBracketAppearances": 9,
+      "punishmentBracketWins": 12,
+      "punishmentBracketLosses": 13,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 2,
+      "punishmentEscapeRate": 0.8889,
       "bestSeason": {
         "year": 2023,
         "complete": true,
@@ -3655,9 +3716,6 @@
       "slug": "bradley-dillon",
       "fullName": "Bradley Dillon",
       "status": "active",
-      "espnAliases": [
-        "54DemTigOlBitties"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -3679,6 +3737,14 @@
       "championshipLosses": 1,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 5,
+      "punishmentBracketWins": 7,
+      "punishmentBracketLosses": 8,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2021,
         "complete": true,
@@ -3999,9 +4065,6 @@
       "slug": "shawn-smith",
       "fullName": "Shawn Smith",
       "status": "active",
-      "espnAliases": [
-        "smithy9224441"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -4023,6 +4086,18 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 3,
+      "punishmentSeasons": [
+        2020,
+        2022,
+        2024
+      ],
+      "punishmentBracketAppearances": 7,
+      "punishmentBracketWins": 7,
+      "punishmentBracketLosses": 14,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 4,
+      "punishmentEscapeRate": 0.5714,
       "bestSeason": {
         "year": 2018,
         "complete": true,
@@ -4343,9 +4418,6 @@
       "slug": "austin-ketter",
       "fullName": "Austin Ketter",
       "status": "active",
-      "espnAliases": [
-        "austin2879449"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2026,
       "seasonsPlayed": 10,
@@ -4367,6 +4439,14 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 7,
+      "punishmentBracketWins": 14,
+      "punishmentBracketLosses": 6,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 2,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2019,
         "complete": true,
@@ -4687,9 +4767,6 @@
       "slug": "patrick-czechut",
       "fullName": "Patrick Czechut",
       "status": "inactive",
-      "espnAliases": [
-        "Czechutor"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2017,
       "seasonsPlayed": 1,
@@ -4711,6 +4788,16 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2017
+      ],
+      "punishmentBracketAppearances": 1,
+      "punishmentBracketWins": 0,
+      "punishmentBracketLosses": 3,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 0,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -4851,9 +4938,6 @@
       "slug": "brandon-hansen",
       "fullName": "Brandon Hansen",
       "status": "inactive",
-      "espnAliases": [
-        "BMHansen12"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2018,
       "seasonsPlayed": 2,
@@ -4875,6 +4959,16 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 1,
+      "punishmentSeasons": [
+        2018
+      ],
+      "punishmentBracketAppearances": 2,
+      "punishmentBracketWins": 1,
+      "punishmentBracketLosses": 5,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 0.5,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -5035,9 +5129,6 @@
       "slug": "joe-smith",
       "fullName": "Joe Smith",
       "status": "inactive",
-      "espnAliases": [
-        "joesmith_15"
-      ],
       "firstSeason": 2017,
       "lastSeason": 2017,
       "seasonsPlayed": 1,
@@ -5059,6 +5150,14 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 1,
+      "punishmentBracketWins": 1,
+      "punishmentBracketLosses": 2,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 0,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2017,
         "complete": true,
@@ -5199,9 +5298,6 @@
       "slug": "ben-christianson",
       "fullName": "Ben Christianson",
       "status": "inactive",
-      "espnAliases": [
-        "bjc91677"
-      ],
       "firstSeason": 2019,
       "lastSeason": 2022,
       "seasonsPlayed": 4,
@@ -5223,6 +5319,14 @@
       "championshipLosses": 0,
       "lastChampionship": null,
       "championshipSeasons": [],
+      "punishmentFinishes": 0,
+      "punishmentSeasons": [],
+      "punishmentBracketAppearances": 3,
+      "punishmentBracketWins": 5,
+      "punishmentBracketLosses": 4,
+      "punishmentBracketTies": 0,
+      "punishmentFinalAppearances": 1,
+      "punishmentEscapeRate": 1,
       "bestSeason": {
         "year": 2020,
         "complete": true,
@@ -5431,9 +5535,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -5448,9 +5549,6 @@
           "teamName": "skol vikings",
           "abbreviation": "skol",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 10,
           "losses": 3,
           "ties": 0,
@@ -5465,9 +5563,6 @@
           "teamName": "Wiki  Leaks",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 10,
           "losses": 3,
           "ties": 0,
@@ -5482,9 +5577,6 @@
           "teamName": "Rim Lickster",
           "abbreviation": "LIX",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 11,
           "losses": 2,
           "ties": 0,
@@ -5499,9 +5591,6 @@
           "teamName": "Team nitz",
           "abbreviation": "NITZ",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "jasonn0256704"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -5516,9 +5605,6 @@
           "teamName": "Team Buddha",
           "abbreviation": "CZEC",
           "managerId": "manager-patrick-czechut",
-          "espnAliases": [
-            "Czechutor"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5533,9 +5619,6 @@
           "teamName": "Lube Me B4 Going In",
           "abbreviation": "GBR",
           "managerId": "manager-brandon-hansen",
-          "espnAliases": [
-            "BMHansen12"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -5550,9 +5633,6 @@
           "teamName": "Team smith",
           "abbreviation": "SMIT",
           "managerId": "manager-joe-smith",
-          "espnAliases": [
-            "joesmith_15"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -5567,9 +5647,6 @@
           "teamName": "The Hali Lama",
           "abbreviation": "LAMA",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5584,9 +5661,6 @@
           "teamName": "LT. Chody",
           "abbreviation": "CHOD",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -5601,9 +5675,6 @@
           "teamName": "Big Baller Wolf",
           "abbreviation": "BBB",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5618,9 +5689,6 @@
           "teamName": "Team Bitties",
           "abbreviation": "BITT",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -5635,9 +5703,6 @@
           "teamName": "KC Motherducker ",
           "abbreviation": "GOKC",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -5652,9 +5717,6 @@
           "teamName": "King Flippy Nips",
           "abbreviation": "KING",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -5677,9 +5739,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 12,
           "losses": 1,
           "ties": 0,
@@ -5694,9 +5753,6 @@
           "teamName": "Team Thicc Thighs",
           "abbreviation": "QUAN",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -5711,9 +5767,6 @@
           "teamName": "Billy Leaf",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -5728,9 +5781,6 @@
           "teamName": "i like  drugs!",
           "abbreviation": "MOLL",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -5745,9 +5795,6 @@
           "teamName": "Rookie of  the Year",
           "abbreviation": "ROY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5762,9 +5809,6 @@
           "teamName": "Handcuff Gang",
           "abbreviation": "JITZ",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "jasonn0256704"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -5779,9 +5823,6 @@
           "teamName": "2018 Nebraska Huskers",
           "abbreviation": "GBR",
           "managerId": "manager-brandon-hansen",
-          "espnAliases": [
-            "BMHansen12"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5796,9 +5837,6 @@
           "teamName": "One Way Train",
           "abbreviation": "FCLS",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -5813,9 +5851,6 @@
           "teamName": "i like  beer!",
           "abbreviation": "BEER",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 10,
           "losses": 3,
           "ties": 0,
@@ -5830,9 +5865,6 @@
           "teamName": "Lenny's Revenge",
           "abbreviation": "LENY",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -5847,9 +5879,6 @@
           "teamName": "i love beer!",
           "abbreviation": "CHUB",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 3,
           "losses": 10,
           "ties": 0,
@@ -5864,9 +5893,6 @@
           "teamName": "Team Bitties",
           "abbreviation": "BITT",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -5881,9 +5907,6 @@
           "teamName": "Post Mahomes",
           "abbreviation": "POST",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -5898,9 +5921,6 @@
           "teamName": "Cumz Thickster",
           "abbreviation": "Cumz",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 2,
           "losses": 11,
           "ties": 0,
@@ -5923,9 +5943,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -5940,9 +5957,6 @@
           "teamName": "Pete Top / Kelbey Bottom",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -5957,9 +5971,6 @@
           "teamName": "Fresh out of AJ Greenz",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 10,
           "losses": 3,
           "ties": 0,
@@ -5974,9 +5985,6 @@
           "teamName": "J-J-Jimmy  McQuacksCorn",
           "abbreviation": "Corn",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -5991,9 +5999,6 @@
           "teamName": "Great White Hope",
           "abbreviation": "GWH",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 11,
           "losses": 2,
           "ties": 0,
@@ -6008,9 +6013,6 @@
           "teamName": "Handcuff 123",
           "abbreviation": "ABc",
           "managerId": "manager-ben-christianson",
-          "espnAliases": [
-            "bjc91677"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -6025,9 +6027,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -6042,9 +6041,6 @@
           "teamName": "Duke  Buttdevils ",
           "abbreviation": "BTH",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 3,
           "losses": 10,
           "ties": 0,
@@ -6059,9 +6055,6 @@
           "teamName": "JG's CBD Emporium",
           "abbreviation": "CNBS",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 2,
           "losses": 11,
           "ties": 0,
@@ -6076,9 +6069,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -6093,9 +6083,6 @@
           "teamName": "Wolf's Revenge",
           "abbreviation": "CHUB",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6110,9 +6097,6 @@
           "teamName": "Team Bitties",
           "abbreviation": "BITT",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -6127,9 +6111,6 @@
           "teamName": "Post Mahomes",
           "abbreviation": "POST",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6144,9 +6125,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -6169,9 +6147,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -6186,9 +6161,6 @@
           "teamName": "Spain w/o the S",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -6203,9 +6175,6 @@
           "teamName": "Pete's  Team ",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -6220,9 +6189,6 @@
           "teamName": "The Simp Saloon",
           "abbreviation": "Simp",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -6237,9 +6203,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -6254,9 +6217,6 @@
           "teamName": "Handcuff 123",
           "abbreviation": "ABc",
           "managerId": "manager-ben-christianson",
-          "espnAliases": [
-            "bjc91677"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -6271,9 +6231,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -6288,9 +6245,6 @@
           "teamName": "Joe Smith's Dab Express",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -6305,9 +6259,6 @@
           "teamName": "Punani Dasani",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 3,
           "losses": 10,
           "ties": 0,
@@ -6322,9 +6273,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6339,9 +6287,6 @@
           "teamName": "Jack's Home for Scorching Gents",
           "abbreviation": "HBH",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6356,9 +6301,6 @@
           "teamName": "Toss My Salad",
           "abbreviation": "TMS",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6373,9 +6315,6 @@
           "teamName": "Post Mahomes",
           "abbreviation": "POST",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -6390,9 +6329,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -6415,9 +6351,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -6432,9 +6365,6 @@
           "teamName": "Nut Kupp",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6449,9 +6379,6 @@
           "teamName": "Pete's Team",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6466,9 +6393,6 @@
           "teamName": "The Nebraska  Huskers ",
           "abbreviation": "Simp",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -6483,9 +6407,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -6500,9 +6421,6 @@
           "teamName": "Handcuff 123",
           "abbreviation": "ABc",
           "managerId": "manager-ben-christianson",
-          "espnAliases": [
-            "bjc91677"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -6517,9 +6435,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6534,9 +6449,6 @@
           "teamName": "Joe Smith's Dab Express",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6551,9 +6463,6 @@
           "teamName": "Punani Dasani #FreeOBJ",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6568,9 +6477,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6585,9 +6491,6 @@
           "teamName": "Jack's Home for Scorching Gents",
           "abbreviation": "HBH",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -6602,9 +6505,6 @@
           "teamName": "Henry's Heros",
           "abbreviation": "HH",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 10,
           "losses": 4,
           "ties": 0,
@@ -6619,9 +6519,6 @@
           "teamName": "Vanilla Gorilla",
           "abbreviation": "KLCE",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -6636,9 +6533,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -6661,9 +6555,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -6678,9 +6569,6 @@
           "teamName": "Cody the Clown 🤡",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 10,
           "losses": 4,
           "ties": 0,
@@ -6695,9 +6583,6 @@
           "teamName": "Pete's Team",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -6712,9 +6597,6 @@
           "teamName": "Magikarp  won't evolve",
           "abbreviation": "HCUF",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6729,9 +6611,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -6746,9 +6625,6 @@
           "teamName": "Handcuff 123",
           "abbreviation": "ABc",
           "managerId": "manager-ben-christianson",
-          "espnAliases": [
-            "bjc91677"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -6763,9 +6639,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6780,9 +6653,6 @@
           "teamName": "Joe Smith's Dab Express",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6797,9 +6667,6 @@
           "teamName": "Punani Dasani",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6814,9 +6681,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -6831,9 +6695,6 @@
           "teamName": "A Nu Start",
           "abbreviation": "ANT",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -6848,9 +6709,6 @@
           "teamName": "NoCondom Foreva",
           "abbreviation": "NoCF",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6865,9 +6723,6 @@
           "teamName": "Vanilla Gorilla",
           "abbreviation": "KLCE",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -6882,9 +6737,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -6907,9 +6759,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -6924,9 +6773,6 @@
           "teamName": "Zeeked up off them bars",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -6941,9 +6787,6 @@
           "teamName": "Pete's Team",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 10,
           "losses": 4,
           "ties": 0,
@@ -6958,9 +6801,6 @@
           "teamName": "Swarm of locust ",
           "abbreviation": "SWRM",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -6975,9 +6815,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -6992,9 +6829,6 @@
           "teamName": "Jitz's little darlings ",
           "abbreviation": "ABc",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "espn42896775"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7009,9 +6843,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7026,9 +6857,6 @@
           "teamName": "LaBackdoora Express",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -7043,9 +6871,6 @@
           "teamName": "Punani Dasani 🤌🤌",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -7060,9 +6885,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -7077,9 +6899,6 @@
           "teamName": "A Nu Start",
           "abbreviation": "ANT",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -7094,9 +6913,6 @@
           "teamName": "The Farm ",
           "abbreviation": "FARM",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7111,9 +6927,6 @@
           "teamName": "Big Swiftie Guy",
           "abbreviation": "KLCE",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -7128,9 +6941,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -7153,9 +6963,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 3,
           "losses": 11,
           "ties": 0,
@@ -7170,9 +6977,6 @@
           "teamName": "EMA",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7187,9 +6991,6 @@
           "teamName": "Marvin Gaye and Charbonnet",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7204,9 +7005,6 @@
           "teamName": "Sad bc owe celbey runza ",
           "abbreviation": "RNZA",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7221,9 +7019,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 11,
           "losses": 3,
           "ties": 0,
@@ -7238,9 +7033,6 @@
           "teamName": "Mash Potato Brains ",
           "abbreviation": "ABc",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "espn42896775"
-          ],
           "wins": 10,
           "losses": 4,
           "ties": 0,
@@ -7255,9 +7047,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7272,9 +7061,6 @@
           "teamName": "LaNotDed",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7289,9 +7075,6 @@
           "teamName": "Punani Dasani",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 13,
           "losses": 1,
           "ties": 0,
@@ -7306,9 +7089,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7323,9 +7103,6 @@
           "teamName": "SKOL",
           "abbreviation": "SKOL",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "Ugadawgz0612"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -7340,9 +7117,6 @@
           "teamName": "The Farm ",
           "abbreviation": "FARM",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -7357,9 +7131,6 @@
           "teamName": "Big Swiftie Guy",
           "abbreviation": "KLCE",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -7374,9 +7145,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7399,9 +7167,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 10,
           "losses": 4,
           "ties": 0,
@@ -7416,9 +7181,6 @@
           "teamName": "Landfill of the Hottest Boys",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -7433,9 +7195,6 @@
           "teamName": "Marvin Gaye and Charbonnet",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -7450,9 +7209,6 @@
           "teamName": "Patrick star",
           "abbreviation": "Pstr",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7467,9 +7223,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7484,9 +7237,6 @@
           "teamName": "Smashing RB 3s",
           "abbreviation": "ABc",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "espn42896775"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -7501,9 +7251,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7518,9 +7265,6 @@
           "teamName": "Joe Smith's Dab Express ",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 9,
           "losses": 5,
           "ties": 0,
@@ -7535,9 +7279,6 @@
           "teamName": "Punani Dasani",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 7,
           "losses": 7,
           "ties": 0,
@@ -7552,9 +7293,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -7569,9 +7307,6 @@
           "teamName": "Husker Mayer Weeyners",
           "abbreviation": "VIK",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "espnfan97838955"
-          ],
           "wins": 6,
           "losses": 8,
           "ties": 0,
@@ -7586,9 +7321,6 @@
           "teamName": "The Veggie Garden ",
           "abbreviation": "TVG",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -7603,9 +7335,6 @@
           "teamName": "Regulators",
           "abbreviation": "RGUL",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 5,
           "losses": 9,
           "ties": 0,
@@ -7620,9 +7349,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 8,
           "losses": 6,
           "ties": 0,
@@ -7645,9 +7371,6 @@
           "teamName": "Long Dick of the Law",
           "abbreviation": "LDL",
           "managerId": "manager-kelbey-heider",
-          "espnAliases": [
-            "Kelbsta2010"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7662,9 +7385,6 @@
           "teamName": "Landfill of the Hottest Boys",
           "abbreviation": "LEAF",
           "managerId": "manager-will-leafstedt",
-          "espnAliases": [
-            "willleafstedt"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7679,9 +7399,6 @@
           "teamName": "Marvin Gaye and Charbonnet",
           "abbreviation": "IR",
           "managerId": "manager-peter-ganz",
-          "espnAliases": [
-            "peterw9799032"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7696,9 +7413,6 @@
           "teamName": "Patrick star",
           "abbreviation": "Pstr",
           "managerId": "manager-cody-stalp",
-          "espnAliases": [
-            "cstalprun"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7713,9 +7427,6 @@
           "teamName": "The Kekambas",
           "abbreviation": "GBBY",
           "managerId": "manager-wes-dempsey",
-          "espnAliases": [
-            "wdemps8"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7730,9 +7441,6 @@
           "teamName": "Smashing RB 3s",
           "abbreviation": "ABc",
           "managerId": "manager-jason-nitz",
-          "espnAliases": [
-            "espn42896775"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7747,9 +7455,6 @@
           "teamName": "Chief Slappinhoes",
           "abbreviation": "Slap",
           "managerId": "manager-alex-continenza",
-          "espnAliases": [
-            "Alex952892"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7764,9 +7469,6 @@
           "teamName": "Joe Smith's Dab Express ",
           "abbreviation": "DAB",
           "managerId": "manager-jawad-najdawi",
-          "espnAliases": [
-            "AFL since92"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7781,9 +7483,6 @@
           "teamName": "Punani Dasani",
           "abbreviation": "WAP",
           "managerId": "manager-cody-leslie",
-          "espnAliases": [
-            "codyle7290469"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7798,9 +7497,6 @@
           "teamName": "The Hot Boy Warehouse",
           "abbreviation": "Hot",
           "managerId": "manager-tim-switzer",
-          "espnAliases": [
-            "tswitz27"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7815,9 +7511,6 @@
           "teamName": "Husker Mayer Weeyners",
           "abbreviation": "VIK",
           "managerId": "manager-jack-haley",
-          "espnAliases": [
-            "espnfan97838955"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7832,9 +7525,6 @@
           "teamName": "The Veggie Garden ",
           "abbreviation": "TVG",
           "managerId": "manager-bradley-dillon",
-          "espnAliases": [
-            "54DemTigOlBitties"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7849,9 +7539,6 @@
           "teamName": "Regulators",
           "abbreviation": "RGUL",
           "managerId": "manager-shawn-smith",
-          "espnAliases": [
-            "smithy9224441"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7866,9 +7553,6 @@
           "teamName": "McCracker Quack",
           "abbreviation": "Quac",
           "managerId": "manager-austin-ketter",
-          "espnAliases": [
-            "austin2879449"
-          ],
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -7991,6 +7675,2056 @@
       "week": 17
     }
   ],
+  "punishmentHistory": [
+    {
+      "year": 2017,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-patrick-czechut",
+      "managerName": "Patrick Czechut",
+      "teamName": "Team Buddha",
+      "regularSeasonRecord": {
+        "wins": 4,
+        "losses": 9,
+        "ties": 0
+      },
+      "regularSeasonFinish": 14,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 98,
+          "week": 14,
+          "managerName": "Patrick Czechut",
+          "teamName": "Team Buddha",
+          "score": 22.12,
+          "opponentId": "manager-cody-leslie",
+          "opponentName": "Cody Leslie",
+          "opponentTeamName": "The Hali Lama",
+          "opponentScore": 58.52,
+          "result": "L"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "managerName": "Patrick Czechut",
+          "teamName": "Team Buddha",
+          "score": 67.72,
+          "opponentId": "manager-joe-smith",
+          "opponentName": "Joe Smith",
+          "opponentTeamName": "Team smith",
+          "opponentScore": 101.16,
+          "result": "L"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "managerName": "Patrick Czechut",
+          "teamName": "Team Buddha",
+          "score": 64.16,
+          "opponentId": "manager-jason-nitz",
+          "opponentName": "Jason Nitz",
+          "opponentTeamName": "Team nitz",
+          "opponentScore": 84.42,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 95,
+          "week": 14,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "KC Motherducker ",
+          "homeScore": 119.34,
+          "awayManagerName": "Brandon Hansen",
+          "awayTeamName": "Lube Me B4 Going In",
+          "awayScore": 107.84,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 96,
+          "week": 14,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "King Flippy Nips",
+          "homeScore": 90.28,
+          "awayManagerName": "Jason Nitz",
+          "awayTeamName": "Team nitz",
+          "awayScore": 58.64,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 97,
+          "week": 14,
+          "homeManagerName": "Joe Smith",
+          "homeTeamName": "Team smith",
+          "homeScore": 99.46,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Big Baller Wolf",
+          "awayScore": 114.44,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 98,
+          "week": 14,
+          "homeManagerName": "Cody Leslie",
+          "homeTeamName": "The Hali Lama",
+          "homeScore": 58.52,
+          "awayManagerName": "Patrick Czechut",
+          "awayTeamName": "Team Buddha",
+          "awayScore": 22.12,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 102,
+          "week": 15,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "KC Motherducker ",
+          "homeScore": 98.98,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "King Flippy Nips",
+          "awayScore": 115.88,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Brandon Hansen",
+          "homeTeamName": "Lube Me B4 Going In",
+          "homeScore": 40.68,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Big Baller Wolf",
+          "awayScore": 21.06,
+          "winnerName": "Brandon Hansen"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Team nitz",
+          "homeScore": 76.02,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "The Hali Lama",
+          "awayScore": 77.28,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Joe Smith",
+          "homeTeamName": "Team smith",
+          "homeScore": 101.16,
+          "awayManagerName": "Patrick Czechut",
+          "awayTeamName": "Team Buddha",
+          "awayScore": 67.72,
+          "winnerName": "Joe Smith"
+        },
+        {
+          "matchupId": 109,
+          "week": 16,
+          "homeManagerName": "Brandon Hansen",
+          "homeTeamName": "Lube Me B4 Going In",
+          "homeScore": 75.52,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "King Flippy Nips",
+          "awayScore": 76.8,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "KC Motherducker ",
+          "homeScore": 84.32,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "The Hali Lama",
+          "awayScore": 95.74,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Joe Smith",
+          "homeTeamName": "Team smith",
+          "homeScore": 34.04,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Big Baller Wolf",
+          "awayScore": 99.76,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Team nitz",
+          "homeScore": 84.42,
+          "awayManagerName": "Patrick Czechut",
+          "awayTeamName": "Team Buddha",
+          "awayScore": 64.16,
+          "winnerName": "Jason Nitz"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 112,
+        "week": 16,
+        "managerName": "Patrick Czechut",
+        "teamName": "Team Buddha",
+        "score": 64.16,
+        "opponentId": "manager-jason-nitz",
+        "opponentName": "Jason Nitz",
+        "opponentTeamName": "Team nitz",
+        "opponentScore": 84.42,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-jason-nitz",
+      "finalOpponentName": "Jason Nitz",
+      "finalScore": 64.16,
+      "opponentScore": 84.42,
+      "entrants": [
+        "Austin Ketter",
+        "Brandon Hansen",
+        "Cody Leslie",
+        "Jack Haley",
+        "Jason Nitz",
+        "Joe Smith",
+        "Patrick Czechut",
+        "Shawn Smith"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2018,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-brandon-hansen",
+      "managerName": "Brandon Hansen",
+      "teamName": "2018 Nebraska Huskers",
+      "regularSeasonRecord": {
+        "wins": 4,
+        "losses": 9,
+        "ties": 0
+      },
+      "regularSeasonFinish": 11,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 97,
+          "week": 14,
+          "managerName": "Brandon Hansen",
+          "teamName": "2018 Nebraska Huskers",
+          "score": 0,
+          "opponentId": "manager-bradley-dillon",
+          "opponentName": "Bradley Dillon",
+          "opponentTeamName": "Team Bitties",
+          "opponentScore": 127.52,
+          "result": "L"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "managerName": "Brandon Hansen",
+          "teamName": "2018 Nebraska Huskers",
+          "score": 12.1,
+          "opponentId": "manager-jack-haley",
+          "opponentName": "Jack Haley",
+          "opponentTeamName": "i love beer!",
+          "opponentScore": 69.36,
+          "result": "L"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "managerName": "Brandon Hansen",
+          "teamName": "2018 Nebraska Huskers",
+          "score": 3.1,
+          "opponentId": "manager-wes-dempsey",
+          "opponentName": "Wes Dempsey",
+          "opponentTeamName": "Rookie of  the Year",
+          "opponentScore": 115.44,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 95,
+          "week": 14,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Handcuff Gang",
+          "homeScore": 56.3,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Billy Leaf",
+          "awayScore": 114.78,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 96,
+          "week": 14,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "One Way Train",
+          "homeScore": 75.84,
+          "awayManagerName": "Wes Dempsey",
+          "awayTeamName": "Rookie of  the Year",
+          "awayScore": 74.2,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 97,
+          "week": 14,
+          "homeManagerName": "Brandon Hansen",
+          "homeTeamName": "2018 Nebraska Huskers",
+          "homeScore": 0,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "Team Bitties",
+          "awayScore": 127.52,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 98,
+          "week": 14,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "i love beer!",
+          "homeScore": 78.88,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "Cumz Thickster",
+          "awayScore": 84.8,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 102,
+          "week": 15,
+          "homeManagerName": "Peter Ganz",
+          "homeTeamName": "Billy Leaf",
+          "homeScore": 75.58,
+          "awayManagerName": "Jawad Najdawi",
+          "awayTeamName": "One Way Train",
+          "awayScore": 50.28,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Handcuff Gang",
+          "homeScore": 129.62,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "Team Bitties",
+          "awayScore": 60.42,
+          "winnerName": "Jason Nitz"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "Rookie of  the Year",
+          "homeScore": 75.54,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "Cumz Thickster",
+          "awayScore": 88.08,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Brandon Hansen",
+          "homeTeamName": "2018 Nebraska Huskers",
+          "homeScore": 12.1,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "i love beer!",
+          "awayScore": 69.36,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 109,
+          "week": 16,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Handcuff Gang",
+          "homeScore": 57.62,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Billy Leaf",
+          "awayScore": 95.84,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "One Way Train",
+          "homeScore": 71.5,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "Cumz Thickster",
+          "awayScore": 79.54,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "Team Bitties",
+          "homeScore": 84.36,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "i love beer!",
+          "awayScore": 115.92,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "Rookie of  the Year",
+          "homeScore": 115.44,
+          "awayManagerName": "Brandon Hansen",
+          "awayTeamName": "2018 Nebraska Huskers",
+          "awayScore": 3.1,
+          "winnerName": "Wes Dempsey"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 112,
+        "week": 16,
+        "managerName": "Brandon Hansen",
+        "teamName": "2018 Nebraska Huskers",
+        "score": 3.1,
+        "opponentId": "manager-wes-dempsey",
+        "opponentName": "Wes Dempsey",
+        "opponentTeamName": "Rookie of  the Year",
+        "opponentScore": 115.44,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-wes-dempsey",
+      "finalOpponentName": "Wes Dempsey",
+      "finalScore": 3.1,
+      "opponentScore": 115.44,
+      "entrants": [
+        "Austin Ketter",
+        "Bradley Dillon",
+        "Brandon Hansen",
+        "Jack Haley",
+        "Jason Nitz",
+        "Jawad Najdawi",
+        "Peter Ganz",
+        "Wes Dempsey"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2019,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-alex-continenza",
+      "managerName": "Alex Continenza",
+      "teamName": "Chief Slappinhoes",
+      "regularSeasonRecord": {
+        "wins": 4,
+        "losses": 9,
+        "ties": 0
+      },
+      "regularSeasonFinish": 11,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 98,
+          "week": 14,
+          "managerName": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "score": 88.72,
+          "opponentId": "manager-shawn-smith",
+          "opponentName": "Shawn Smith",
+          "opponentTeamName": "Post Mahomes",
+          "opponentScore": 95.92,
+          "result": "L"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "managerName": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "score": 99.48,
+          "opponentId": "manager-jawad-najdawi",
+          "opponentName": "Jawad Najdawi",
+          "opponentTeamName": "Duke  Buttdevils ",
+          "opponentScore": 101.88,
+          "result": "L"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "managerName": "Alex Continenza",
+          "teamName": "Chief Slappinhoes",
+          "score": 68.56,
+          "opponentId": "manager-ben-christianson",
+          "opponentName": "Ben Christianson",
+          "opponentTeamName": "Handcuff 123",
+          "opponentScore": 85.5,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 96,
+          "week": 14,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 94.6,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "JG's CBD Emporium",
+          "awayScore": 64.62,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 97,
+          "week": 14,
+          "homeManagerName": "Will Leafstedt",
+          "homeTeamName": "Pete Top / Kelbey Bottom",
+          "homeScore": 108.44,
+          "awayManagerName": "Ben Christianson",
+          "awayTeamName": "Handcuff 123",
+          "awayScore": 81.06,
+          "winnerName": "Will Leafstedt"
+        },
+        {
+          "matchupId": 98,
+          "week": 14,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 88.72,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Post Mahomes",
+          "awayScore": 95.92,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 99,
+          "week": 14,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "Duke  Buttdevils ",
+          "homeScore": 105.22,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Wolf's Revenge",
+          "awayScore": 119.08,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Will Leafstedt",
+          "homeTeamName": "Pete Top / Kelbey Bottom",
+          "homeScore": 81.36,
+          "awayManagerName": "Kelbey Heider",
+          "awayTeamName": "Long Dick of the Law",
+          "awayScore": 103.14,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "Wolf's Revenge",
+          "homeScore": 105.72,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Post Mahomes",
+          "awayScore": 128.4,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 99.48,
+          "awayManagerName": "Jawad Najdawi",
+          "awayTeamName": "Duke  Buttdevils ",
+          "awayScore": 101.88,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Ben Christianson",
+          "homeTeamName": "Handcuff 123",
+          "homeScore": 75.58,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "JG's CBD Emporium",
+          "awayScore": 76.56,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 113.06,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Post Mahomes",
+          "awayScore": 79.74,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Will Leafstedt",
+          "homeTeamName": "Pete Top / Kelbey Bottom",
+          "homeScore": 89.62,
+          "awayManagerName": "Jawad Najdawi",
+          "awayTeamName": "Duke  Buttdevils ",
+          "awayScore": 94.96,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "Wolf's Revenge",
+          "homeScore": 86.96,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "JG's CBD Emporium",
+          "awayScore": 94.56,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 68.56,
+          "awayManagerName": "Ben Christianson",
+          "awayTeamName": "Handcuff 123",
+          "awayScore": 85.5,
+          "winnerName": "Ben Christianson"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 113,
+        "week": 16,
+        "managerName": "Alex Continenza",
+        "teamName": "Chief Slappinhoes",
+        "score": 68.56,
+        "opponentId": "manager-ben-christianson",
+        "opponentName": "Ben Christianson",
+        "opponentTeamName": "Handcuff 123",
+        "opponentScore": 85.5,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-ben-christianson",
+      "finalOpponentName": "Ben Christianson",
+      "finalScore": 68.56,
+      "opponentScore": 85.5,
+      "entrants": [
+        "Alex Continenza",
+        "Ben Christianson",
+        "Cody Leslie",
+        "Jack Haley",
+        "Jawad Najdawi",
+        "Kelbey Heider",
+        "Shawn Smith",
+        "Will Leafstedt"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2020,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "teamName": "Post Mahomes",
+      "regularSeasonRecord": {
+        "wins": 6,
+        "losses": 7,
+        "ties": 0
+      },
+      "regularSeasonFinish": 9,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 97,
+          "week": 14,
+          "managerName": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "score": 59.72,
+          "opponentId": "manager-austin-ketter",
+          "opponentName": "Austin Ketter",
+          "opponentTeamName": "McCracker Quack",
+          "opponentScore": 113.34,
+          "result": "L"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "managerName": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "score": 102.76,
+          "opponentId": "manager-cody-leslie",
+          "opponentName": "Cody Leslie",
+          "opponentTeamName": "Punani Dasani",
+          "opponentScore": 103.1,
+          "result": "L"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "managerName": "Shawn Smith",
+          "teamName": "Post Mahomes",
+          "score": 102.72,
+          "opponentId": "manager-jack-haley",
+          "opponentName": "Jack Haley",
+          "opponentTeamName": "Jack's Home for Scorching Gents",
+          "opponentScore": 116.56,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 96,
+          "week": 14,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Simp Saloon",
+          "homeScore": 103.78,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani",
+          "awayScore": 76.74,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 97,
+          "week": 14,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Post Mahomes",
+          "homeScore": 59.72,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 113.34,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 98,
+          "week": 14,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "Jack's Home for Scorching Gents",
+          "homeScore": 95.46,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "Toss My Salad",
+          "awayScore": 121.16,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 99,
+          "week": 14,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 110.5,
+          "awayManagerName": "Tim Switzer",
+          "awayTeamName": "The Hot Boy Warehouse",
+          "awayScore": 106.78,
+          "winnerName": "Wes Dempsey"
+        },
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Simp Saloon",
+          "homeScore": 102.02,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 66.36,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "Toss My Salad",
+          "homeScore": 133.64,
+          "awayManagerName": "Jawad Najdawi",
+          "awayTeamName": "Joe Smith's Dab Express",
+          "awayScore": 102.42,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Post Mahomes",
+          "homeScore": 102.76,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani",
+          "awayScore": 103.1,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Tim Switzer",
+          "homeTeamName": "The Hot Boy Warehouse",
+          "homeScore": 156.52,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Jack's Home for Scorching Gents",
+          "awayScore": 102.92,
+          "winnerName": "Tim Switzer"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Simp Saloon",
+          "homeScore": 107.1,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "Toss My Salad",
+          "awayScore": 85.28,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 118.4,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani",
+          "awayScore": 118.72,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "Joe Smith's Dab Express",
+          "homeScore": 90.94,
+          "awayManagerName": "Tim Switzer",
+          "awayTeamName": "The Hot Boy Warehouse",
+          "awayScore": 106.64,
+          "winnerName": "Tim Switzer"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Post Mahomes",
+          "homeScore": 102.72,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Jack's Home for Scorching Gents",
+          "awayScore": 116.56,
+          "winnerName": "Jack Haley"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 113,
+        "week": 16,
+        "managerName": "Shawn Smith",
+        "teamName": "Post Mahomes",
+        "score": 102.72,
+        "opponentId": "manager-jack-haley",
+        "opponentName": "Jack Haley",
+        "opponentTeamName": "Jack's Home for Scorching Gents",
+        "opponentScore": 116.56,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-jack-haley",
+      "finalOpponentName": "Jack Haley",
+      "finalScore": 102.72,
+      "opponentScore": 116.56,
+      "entrants": [
+        "Austin Ketter",
+        "Bradley Dillon",
+        "Cody Leslie",
+        "Cody Stalp",
+        "Jack Haley",
+        "Jawad Najdawi",
+        "Shawn Smith",
+        "Tim Switzer",
+        "Wes Dempsey"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2021,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-cody-stalp",
+      "managerName": "Cody Stalp",
+      "teamName": "The Nebraska  Huskers ",
+      "regularSeasonRecord": {
+        "wins": 5,
+        "losses": 9,
+        "ties": 0
+      },
+      "regularSeasonFinish": 11,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 105,
+          "week": 15,
+          "managerName": "Cody Stalp",
+          "teamName": "The Nebraska  Huskers ",
+          "score": 69.12,
+          "opponentId": "manager-ben-christianson",
+          "opponentName": "Ben Christianson",
+          "opponentTeamName": "Handcuff 123",
+          "opponentScore": 85.92,
+          "result": "L"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "managerName": "Cody Stalp",
+          "teamName": "The Nebraska  Huskers ",
+          "score": 71.98,
+          "opponentId": "manager-wes-dempsey",
+          "opponentName": "Wes Dempsey",
+          "opponentTeamName": "The Kekambas",
+          "opponentScore": 82.2,
+          "result": "L"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "managerName": "Cody Stalp",
+          "teamName": "The Nebraska  Huskers ",
+          "score": 83.22,
+          "opponentId": "manager-shawn-smith",
+          "opponentName": "Shawn Smith",
+          "opponentTeamName": "Vanilla Gorilla",
+          "opponentScore": 104.1,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 70.58,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Jack's Home for Scorching Gents",
+          "awayScore": 98.86,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 110.68,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Vanilla Gorilla",
+          "awayScore": 96.06,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Nebraska  Huskers ",
+          "homeScore": 69.12,
+          "awayManagerName": "Ben Christianson",
+          "awayTeamName": "Handcuff 123",
+          "awayScore": 85.92,
+          "winnerName": "Ben Christianson"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "Joe Smith's Dab Express",
+          "homeScore": 57.16,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 74.22,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Ben Christianson",
+          "homeTeamName": "Handcuff 123",
+          "homeScore": 80.96,
+          "awayManagerName": "Kelbey Heider",
+          "awayTeamName": "Long Dick of the Law",
+          "awayScore": 100.8,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Nebraska  Huskers ",
+          "homeScore": 71.98,
+          "awayManagerName": "Wes Dempsey",
+          "awayTeamName": "The Kekambas",
+          "awayScore": 82.2,
+          "winnerName": "Wes Dempsey"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 80.58,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 96.46,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "Joe Smith's Dab Express",
+          "homeScore": 60.6,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Vanilla Gorilla",
+          "awayScore": 58.98,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 117,
+          "week": 17,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 129.54,
+          "awayManagerName": "Tim Switzer",
+          "awayTeamName": "The Hot Boy Warehouse",
+          "awayScore": 106.06,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 118,
+          "week": 17,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 90.22,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 105,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 119,
+          "week": 17,
+          "homeManagerName": "Ben Christianson",
+          "homeTeamName": "Handcuff 123",
+          "homeScore": 142.76,
+          "awayManagerName": "Alex Continenza",
+          "awayTeamName": "Chief Slappinhoes",
+          "awayScore": 111.66,
+          "winnerName": "Ben Christianson"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "The Nebraska  Huskers ",
+          "homeScore": 83.22,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Vanilla Gorilla",
+          "awayScore": 104.1,
+          "winnerName": "Shawn Smith"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 120,
+        "week": 17,
+        "managerName": "Cody Stalp",
+        "teamName": "The Nebraska  Huskers ",
+        "score": 83.22,
+        "opponentId": "manager-shawn-smith",
+        "opponentName": "Shawn Smith",
+        "opponentTeamName": "Vanilla Gorilla",
+        "opponentScore": 104.1,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-shawn-smith",
+      "finalOpponentName": "Shawn Smith",
+      "finalScore": 83.22,
+      "opponentScore": 104.1,
+      "entrants": [
+        "Alex Continenza",
+        "Austin Ketter",
+        "Ben Christianson",
+        "Cody Stalp",
+        "Jack Haley",
+        "Jawad Najdawi",
+        "Kelbey Heider",
+        "Shawn Smith",
+        "Tim Switzer",
+        "Wes Dempsey"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2022,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "teamName": "Vanilla Gorilla",
+      "regularSeasonRecord": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0
+      },
+      "regularSeasonFinish": 11,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 104,
+          "week": 15,
+          "managerName": "Shawn Smith",
+          "teamName": "Vanilla Gorilla",
+          "score": 72.38,
+          "opponentId": "manager-wes-dempsey",
+          "opponentName": "Wes Dempsey",
+          "opponentTeamName": "The Kekambas",
+          "opponentScore": 83.44,
+          "result": "L"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "managerName": "Shawn Smith",
+          "teamName": "Vanilla Gorilla",
+          "score": 37.84,
+          "opponentId": "manager-peter-ganz",
+          "opponentName": "Peter Ganz",
+          "opponentTeamName": "Pete's Team",
+          "opponentScore": 93.7,
+          "result": "L"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "managerName": "Shawn Smith",
+          "teamName": "Vanilla Gorilla",
+          "score": 102.58,
+          "opponentId": "manager-austin-ketter",
+          "opponentName": "Austin Ketter",
+          "opponentTeamName": "McCracker Quack",
+          "opponentScore": 115.48,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Peter Ganz",
+          "homeTeamName": "Pete's Team",
+          "homeScore": 76.48,
+          "awayManagerName": "Tim Switzer",
+          "awayTeamName": "The Hot Boy Warehouse",
+          "awayScore": 101.64,
+          "winnerName": "Tim Switzer"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Vanilla Gorilla",
+          "homeScore": 72.38,
+          "awayManagerName": "Wes Dempsey",
+          "awayTeamName": "The Kekambas",
+          "awayScore": 83.44,
+          "winnerName": "Wes Dempsey"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 96.7,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "A Nu Start",
+          "awayScore": 125.42,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Ben Christianson",
+          "homeTeamName": "Handcuff 123",
+          "homeScore": 124.7,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 99.46,
+          "winnerName": "Ben Christianson"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Tim Switzer",
+          "homeTeamName": "The Hot Boy Warehouse",
+          "homeScore": 116.56,
+          "awayManagerName": "Wes Dempsey",
+          "awayTeamName": "The Kekambas",
+          "awayScore": 98.26,
+          "winnerName": "Tim Switzer"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "A Nu Start",
+          "homeScore": 125.56,
+          "awayManagerName": "Ben Christianson",
+          "awayTeamName": "Handcuff 123",
+          "awayScore": 85.96,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Vanilla Gorilla",
+          "homeScore": 37.84,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Pete's Team",
+          "awayScore": 93.7,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "McCracker Quack",
+          "homeScore": 101.6,
+          "awayManagerName": "Kelbey Heider",
+          "awayTeamName": "Long Dick of the Law",
+          "awayScore": 103.26,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 117,
+          "week": 17,
+          "homeManagerName": "Tim Switzer",
+          "homeTeamName": "The Hot Boy Warehouse",
+          "homeScore": 79.42,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "A Nu Start",
+          "awayScore": 103.48,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 118,
+          "week": 17,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 67.94,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Pete's Team",
+          "awayScore": 80.9,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 119,
+          "week": 17,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 42.66,
+          "awayManagerName": "Ben Christianson",
+          "awayTeamName": "Handcuff 123",
+          "awayScore": 93.2,
+          "winnerName": "Ben Christianson"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "McCracker Quack",
+          "homeScore": 115.48,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Vanilla Gorilla",
+          "awayScore": 102.58,
+          "winnerName": "Austin Ketter"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 120,
+        "week": 17,
+        "managerName": "Shawn Smith",
+        "teamName": "Vanilla Gorilla",
+        "score": 102.58,
+        "opponentId": "manager-austin-ketter",
+        "opponentName": "Austin Ketter",
+        "opponentTeamName": "McCracker Quack",
+        "opponentScore": 115.48,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-austin-ketter",
+      "finalOpponentName": "Austin Ketter",
+      "finalScore": 102.58,
+      "opponentScore": 115.48,
+      "entrants": [
+        "Austin Ketter",
+        "Ben Christianson",
+        "Jack Haley",
+        "Kelbey Heider",
+        "Peter Ganz",
+        "Shawn Smith",
+        "Tim Switzer",
+        "Wes Dempsey"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2023,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-jack-haley",
+      "managerName": "Jack Haley",
+      "teamName": "A Nu Start",
+      "regularSeasonRecord": {
+        "wins": 7,
+        "losses": 7,
+        "ties": 0
+      },
+      "regularSeasonFinish": 8,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 106,
+          "week": 15,
+          "managerName": "Jack Haley",
+          "teamName": "A Nu Start",
+          "score": 45.1,
+          "opponentId": "manager-wes-dempsey",
+          "opponentName": "Wes Dempsey",
+          "opponentTeamName": "The Kekambas",
+          "opponentScore": 73.54,
+          "result": "L"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "managerName": "Jack Haley",
+          "teamName": "A Nu Start",
+          "score": 69.5,
+          "opponentId": "manager-cody-leslie",
+          "opponentName": "Cody Leslie",
+          "opponentTeamName": "Punani Dasani 🤌🤌",
+          "opponentScore": 112.1,
+          "result": "L"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "managerName": "Jack Haley",
+          "teamName": "A Nu Start",
+          "score": 67.1,
+          "opponentId": "manager-austin-ketter",
+          "opponentName": "Austin Ketter",
+          "opponentTeamName": "McCracker Quack",
+          "opponentScore": 101.04,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "McCracker Quack",
+          "homeScore": 103.94,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Swarm of locust ",
+          "awayScore": 123.32,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 87.46,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "The Farm ",
+          "awayScore": 147.16,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Cody Leslie",
+          "homeTeamName": "Punani Dasani 🤌🤌",
+          "homeScore": 82.46,
+          "awayManagerName": "Jawad Najdawi",
+          "awayTeamName": "LaBackdoora Express",
+          "awayScore": 85.76,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 73.54,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "A Nu Start",
+          "awayScore": 45.1,
+          "winnerName": "Wes Dempsey"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Wes Dempsey",
+          "homeTeamName": "The Kekambas",
+          "homeScore": 68,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Swarm of locust ",
+          "awayScore": 112.94,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "McCracker Quack",
+          "homeScore": 116.76,
+          "awayManagerName": "Alex Continenza",
+          "awayTeamName": "Chief Slappinhoes",
+          "awayScore": 128.4,
+          "winnerName": "Alex Continenza"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "LaBackdoora Express",
+          "homeScore": 95.52,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "The Farm ",
+          "awayScore": 159.62,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "A Nu Start",
+          "homeScore": 69.5,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani 🤌🤌",
+          "awayScore": 112.1,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 117,
+          "week": 17,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 85.58,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani 🤌🤌",
+          "awayScore": 126.14,
+          "winnerName": "Cody Leslie"
+        },
+        {
+          "matchupId": 118,
+          "week": 17,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "The Farm ",
+          "homeScore": 117.22,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Swarm of locust ",
+          "awayScore": 124.28,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 119,
+          "week": 17,
+          "homeManagerName": "Jawad Najdawi",
+          "homeTeamName": "LaBackdoora Express",
+          "homeScore": 125,
+          "awayManagerName": "Wes Dempsey",
+          "awayTeamName": "The Kekambas",
+          "awayScore": 121.32,
+          "winnerName": "Jawad Najdawi"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "A Nu Start",
+          "homeScore": 67.1,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 101.04,
+          "winnerName": "Austin Ketter"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 120,
+        "week": 17,
+        "managerName": "Jack Haley",
+        "teamName": "A Nu Start",
+        "score": 67.1,
+        "opponentId": "manager-austin-ketter",
+        "opponentName": "Austin Ketter",
+        "opponentTeamName": "McCracker Quack",
+        "opponentScore": 101.04,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-austin-ketter",
+      "finalOpponentName": "Austin Ketter",
+      "finalScore": 67.1,
+      "opponentScore": 101.04,
+      "entrants": [
+        "Alex Continenza",
+        "Austin Ketter",
+        "Bradley Dillon",
+        "Cody Leslie",
+        "Cody Stalp",
+        "Jack Haley",
+        "Jawad Najdawi",
+        "Wes Dempsey"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    },
+    {
+      "year": 2024,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "teamName": "Big Swiftie Guy",
+      "regularSeasonRecord": {
+        "wins": 4,
+        "losses": 10,
+        "ties": 0
+      },
+      "regularSeasonFinish": 13,
+      "consolationWins": 1,
+      "consolationLosses": 2,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 106,
+          "week": 15,
+          "managerName": "Shawn Smith",
+          "teamName": "Big Swiftie Guy",
+          "score": 113.3,
+          "opponentId": "manager-cody-stalp",
+          "opponentName": "Cody Stalp",
+          "opponentTeamName": "Sad bc owe celbey runza ",
+          "opponentScore": 103.54,
+          "result": "W"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "managerName": "Shawn Smith",
+          "teamName": "Big Swiftie Guy",
+          "score": 52.48,
+          "opponentId": "manager-alex-continenza",
+          "opponentName": "Alex Continenza",
+          "opponentTeamName": "Chief Slappinhoes",
+          "opponentScore": 97.18,
+          "result": "L"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "managerName": "Shawn Smith",
+          "teamName": "Big Swiftie Guy",
+          "score": 92.12,
+          "opponentId": "manager-peter-ganz",
+          "opponentName": "Peter Ganz",
+          "opponentTeamName": "Marvin Gaye and Charbonnet",
+          "opponentScore": 94.6,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Kelbey Heider",
+          "homeTeamName": "Long Dick of the Law",
+          "homeScore": 74.78,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Marvin Gaye and Charbonnet",
+          "awayScore": 122.86,
+          "winnerName": "Peter Ganz"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "SKOL",
+          "homeScore": 83.6,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 125.86,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 118.34,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "The Farm ",
+          "awayScore": 99.04,
+          "winnerName": "Alex Continenza"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Big Swiftie Guy",
+          "homeScore": 113.3,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Sad bc owe celbey runza ",
+          "awayScore": 103.54,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Peter Ganz",
+          "homeTeamName": "Marvin Gaye and Charbonnet",
+          "homeScore": 119.08,
+          "awayManagerName": "Austin Ketter",
+          "awayTeamName": "McCracker Quack",
+          "awayScore": 137.14,
+          "winnerName": "Austin Ketter"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Jack Haley",
+          "homeTeamName": "SKOL",
+          "homeScore": 100.2,
+          "awayManagerName": "Kelbey Heider",
+          "awayTeamName": "Long Dick of the Law",
+          "awayScore": 120.62,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Alex Continenza",
+          "homeTeamName": "Chief Slappinhoes",
+          "homeScore": 97.18,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Big Swiftie Guy",
+          "awayScore": 52.48,
+          "winnerName": "Alex Continenza"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "Sad bc owe celbey runza ",
+          "homeScore": 113.42,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "The Farm ",
+          "awayScore": 76.14,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 117,
+          "week": 17,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "Sad bc owe celbey runza ",
+          "homeScore": 110.78,
+          "awayManagerName": "Kelbey Heider",
+          "awayTeamName": "Long Dick of the Law",
+          "awayScore": 140.58,
+          "winnerName": "Kelbey Heider"
+        },
+        {
+          "matchupId": 118,
+          "week": 17,
+          "homeManagerName": "Austin Ketter",
+          "homeTeamName": "McCracker Quack",
+          "homeScore": 111.72,
+          "awayManagerName": "Alex Continenza",
+          "awayTeamName": "Chief Slappinhoes",
+          "awayScore": 132.78,
+          "winnerName": "Alex Continenza"
+        },
+        {
+          "matchupId": 119,
+          "week": 17,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "The Farm ",
+          "homeScore": 60.6,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "SKOL",
+          "awayScore": 86.1,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "homeManagerName": "Peter Ganz",
+          "homeTeamName": "Marvin Gaye and Charbonnet",
+          "homeScore": 94.6,
+          "awayManagerName": "Shawn Smith",
+          "awayTeamName": "Big Swiftie Guy",
+          "awayScore": 92.12,
+          "winnerName": "Peter Ganz"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 120,
+        "week": 17,
+        "managerName": "Shawn Smith",
+        "teamName": "Big Swiftie Guy",
+        "score": 92.12,
+        "opponentId": "manager-peter-ganz",
+        "opponentName": "Peter Ganz",
+        "opponentTeamName": "Marvin Gaye and Charbonnet",
+        "opponentScore": 94.6,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-peter-ganz",
+      "finalOpponentName": "Peter Ganz",
+      "finalScore": 92.12,
+      "opponentScore": 94.6,
+      "entrants": [
+        "Alex Continenza",
+        "Austin Ketter",
+        "Bradley Dillon",
+        "Cody Stalp",
+        "Jack Haley",
+        "Kelbey Heider",
+        "Peter Ganz",
+        "Shawn Smith"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": [
+        "Placement-ladder structure: the bottom finisher won an earlier consolation matchup before losing the final punishment matchup."
+      ]
+    },
+    {
+      "year": 2025,
+      "status": "approved",
+      "confidence": "high",
+      "managerId": "manager-cody-leslie",
+      "managerName": "Cody Leslie",
+      "teamName": "Punani Dasani",
+      "regularSeasonRecord": {
+        "wins": 7,
+        "losses": 7,
+        "ties": 0
+      },
+      "regularSeasonFinish": 8,
+      "consolationWins": 0,
+      "consolationLosses": 3,
+      "consolationTies": 0,
+      "consolationMatchups": [
+        {
+          "matchupId": 106,
+          "week": 15,
+          "managerName": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "score": 6.3,
+          "opponentId": "manager-bradley-dillon",
+          "opponentName": "Bradley Dillon",
+          "opponentTeamName": "The Veggie Garden ",
+          "opponentScore": 99.9,
+          "result": "L"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "managerName": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "score": 1.7,
+          "opponentId": "manager-cody-stalp",
+          "opponentName": "Cody Stalp",
+          "opponentTeamName": "Patrick star",
+          "opponentScore": 3,
+          "result": "L"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "managerName": "Cody Leslie",
+          "teamName": "Punani Dasani",
+          "score": 1.1,
+          "opponentId": "manager-peter-ganz",
+          "opponentName": "Peter Ganz",
+          "opponentTeamName": "Marvin Gaye and Charbonnet",
+          "opponentScore": 7.9,
+          "result": "L"
+        }
+      ],
+      "bracketMatchups": [
+        {
+          "matchupId": 103,
+          "week": 15,
+          "homeManagerName": "Will Leafstedt",
+          "homeTeamName": "Landfill of the Hottest Boys",
+          "homeScore": 73.96,
+          "awayManagerName": "Jason Nitz",
+          "awayTeamName": "Smashing RB 3s",
+          "awayScore": 96.9,
+          "winnerName": "Jason Nitz"
+        },
+        {
+          "matchupId": 104,
+          "week": 15,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Regulators",
+          "homeScore": 118.72,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Husker Mayer Weeyners",
+          "awayScore": 18,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 105,
+          "week": 15,
+          "homeManagerName": "Peter Ganz",
+          "homeTeamName": "Marvin Gaye and Charbonnet",
+          "homeScore": 7.1,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Patrick star",
+          "awayScore": 9.6,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 106,
+          "week": 15,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "The Veggie Garden ",
+          "homeScore": 99.9,
+          "awayManagerName": "Cody Leslie",
+          "awayTeamName": "Punani Dasani",
+          "awayScore": 6.3,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 110,
+          "week": 16,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Smashing RB 3s",
+          "homeScore": 112.4,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Husker Mayer Weeyners",
+          "awayScore": 10.4,
+          "winnerName": "Jason Nitz"
+        },
+        {
+          "matchupId": 111,
+          "week": 16,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Regulators",
+          "homeScore": 73.86,
+          "awayManagerName": "Will Leafstedt",
+          "awayTeamName": "Landfill of the Hottest Boys",
+          "awayScore": 85.26,
+          "winnerName": "Will Leafstedt"
+        },
+        {
+          "matchupId": 112,
+          "week": 16,
+          "homeManagerName": "Cody Leslie",
+          "homeTeamName": "Punani Dasani",
+          "homeScore": 1.7,
+          "awayManagerName": "Cody Stalp",
+          "awayTeamName": "Patrick star",
+          "awayScore": 3,
+          "winnerName": "Cody Stalp"
+        },
+        {
+          "matchupId": 113,
+          "week": 16,
+          "homeManagerName": "Bradley Dillon",
+          "homeTeamName": "The Veggie Garden ",
+          "homeScore": 24.8,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Marvin Gaye and Charbonnet",
+          "awayScore": -1.1,
+          "winnerName": "Bradley Dillon"
+        },
+        {
+          "matchupId": 117,
+          "week": 17,
+          "homeManagerName": "Jason Nitz",
+          "homeTeamName": "Smashing RB 3s",
+          "homeScore": 84.74,
+          "awayManagerName": "Will Leafstedt",
+          "awayTeamName": "Landfill of the Hottest Boys",
+          "awayScore": 130.68,
+          "winnerName": "Will Leafstedt"
+        },
+        {
+          "matchupId": 118,
+          "week": 17,
+          "homeManagerName": "Cody Stalp",
+          "homeTeamName": "Patrick star",
+          "homeScore": 13,
+          "awayManagerName": "Jack Haley",
+          "awayTeamName": "Husker Mayer Weeyners",
+          "awayScore": 13.4,
+          "winnerName": "Jack Haley"
+        },
+        {
+          "matchupId": 119,
+          "week": 17,
+          "homeManagerName": "Shawn Smith",
+          "homeTeamName": "Regulators",
+          "homeScore": 56.88,
+          "awayManagerName": "Bradley Dillon",
+          "awayTeamName": "The Veggie Garden ",
+          "awayScore": 45,
+          "winnerName": "Shawn Smith"
+        },
+        {
+          "matchupId": 120,
+          "week": 17,
+          "homeManagerName": "Cody Leslie",
+          "homeTeamName": "Punani Dasani",
+          "homeScore": 1.1,
+          "awayManagerName": "Peter Ganz",
+          "awayTeamName": "Marvin Gaye and Charbonnet",
+          "awayScore": 7.9,
+          "winnerName": "Peter Ganz"
+        }
+      ],
+      "finalPunishmentMatchup": {
+        "matchupId": 120,
+        "week": 17,
+        "managerName": "Cody Leslie",
+        "teamName": "Punani Dasani",
+        "score": 1.1,
+        "opponentId": "manager-peter-ganz",
+        "opponentName": "Peter Ganz",
+        "opponentTeamName": "Marvin Gaye and Charbonnet",
+        "opponentScore": 7.9,
+        "result": "L"
+      },
+      "finalOpponentId": "manager-peter-ganz",
+      "finalOpponentName": "Peter Ganz",
+      "finalScore": 1.1,
+      "opponentScore": 7.9,
+      "entrants": [
+        "Bradley Dillon",
+        "Cody Leslie",
+        "Cody Stalp",
+        "Jack Haley",
+        "Jason Nitz",
+        "Peter Ganz",
+        "Shawn Smith",
+        "Will Leafstedt"
+      ],
+      "actualPunishment": "",
+      "punishmentNotes": "",
+      "notes": []
+    }
+  ],
+  "punishmentRecords": [
+    {
+      "label": "Most Stupidest Loser finishes",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "value": 3,
+      "detail": "2020, 2022, 2024",
+      "format": "number"
+    },
+    {
+      "label": "Most consecutive Stupidest Loser finishes",
+      "managerId": "",
+      "managerName": "7-way tie",
+      "value": 1,
+      "detail": "No repeat winner: Alex Continenza, Brandon Hansen, Cody Leslie, Cody Stalp, Jack Haley, Patrick Czechut, Shawn Smith",
+      "format": "number"
+    },
+    {
+      "label": "First-ever Stupidest Loser",
+      "managerId": "manager-patrick-czechut",
+      "managerName": "Patrick Czechut",
+      "value": 2017,
+      "year": 2017,
+      "detail": "Team Buddha",
+      "format": "year"
+    },
+    {
+      "label": "Most recent Stupidest Loser",
+      "managerId": "manager-cody-leslie",
+      "managerName": "Cody Leslie",
+      "value": 2025,
+      "year": 2025,
+      "detail": "Punani Dasani",
+      "format": "year"
+    },
+    {
+      "label": "Most punishment-bracket losses",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "value": 14,
+      "detail": "7-14 career punishment record",
+      "format": "number"
+    },
+    {
+      "label": "Most final punishment matchup appearances",
+      "managerId": "manager-shawn-smith",
+      "managerName": "Shawn Smith",
+      "value": 4,
+      "detail": "Bottom-place placement games",
+      "format": "number"
+    },
+    {
+      "label": "Worst punishment-bracket win %",
+      "managerId": "manager-brandon-hansen",
+      "managerName": "Brandon Hansen",
+      "value": 0.1667,
+      "detail": "1-5; minimum 6 games",
+      "format": "rate"
+    },
+    {
+      "label": "Closest escape from punishment",
+      "managerId": "manager-peter-ganz",
+      "managerName": "Peter Ganz",
+      "value": 2.48,
+      "year": 2024,
+      "week": 17,
+      "detail": "Defeated Shawn Smith 94.60-92.12",
+      "format": "decimal"
+    },
+    {
+      "label": "Biggest loss in a final punishment matchup",
+      "managerId": "manager-brandon-hansen",
+      "managerName": "Brandon Hansen",
+      "value": 112.34,
+      "year": 2018,
+      "week": 16,
+      "detail": "Lost to Wes Dempsey 3.10-115.44",
+      "format": "decimal"
+    }
+  ],
+  "punishmentMethodology": "Stupidest Loser is determined only from the completed LOSERS_CONSOLATION_LADDER. ESPN final positions 13 and 14 must meet in the final punishment matchup, and position 14 must lose. Escape rate is the percentage of punishment-bracket seasons in which a manager avoided finishing last. These games never count toward regular-season or championship-playoff records.",
   "h2h": [
     {
       "managerId": "manager-kelbey-heider",
@@ -21069,7 +22803,8 @@
       "value": 191,
       "year": 2020,
       "week": 16,
-      "eligibility": "Regular season or WINNERS_BRACKET only"
+      "eligibility": "Regular season or WINNERS_BRACKET only",
+      "format": "decimal"
     },
     {
       "label": "Lowest single-game score",
@@ -21078,7 +22813,8 @@
       "value": 7.6,
       "year": 2025,
       "week": 14,
-      "eligibility": "Regular season or WINNERS_BRACKET only"
+      "eligibility": "Regular season or WINNERS_BRACKET only",
+      "format": "decimal"
     },
     {
       "label": "Biggest blowout",
@@ -21087,7 +22823,8 @@
       "value": 105.92,
       "year": 2017,
       "week": 9,
-      "eligibility": "Regular season or WINNERS_BRACKET only"
+      "eligibility": "Regular season or WINNERS_BRACKET only",
+      "format": "decimal"
     },
     {
       "label": "Closest game",
@@ -21096,37 +22833,43 @@
       "value": 0.02,
       "year": 2021,
       "week": 11,
-      "eligibility": "Regular season or WINNERS_BRACKET only"
+      "eligibility": "Regular season or WINNERS_BRACKET only",
+      "format": "decimal"
     },
     {
       "label": "Most career wins",
       "managerId": "manager-will-leafstedt",
       "managerName": "Will Leafstedt",
-      "value": 73
+      "value": 73,
+      "format": "number"
     },
     {
       "label": "Best career win %",
       "managerId": "manager-will-leafstedt",
       "managerName": "Will Leafstedt",
-      "value": 0.5984
+      "value": 0.5984,
+      "format": "rate"
     },
     {
       "label": "Most career points",
       "managerId": "manager-tim-switzer",
       "managerName": "Tim Switzer",
-      "value": 12976.2
+      "value": 12976.2,
+      "format": "decimal"
     },
     {
       "label": "Most championships",
       "managerId": "manager-kelbey-heider",
       "managerName": "Kelbey Heider",
-      "value": 4
+      "value": 4,
+      "format": "number"
     },
     {
       "label": "Most playoff wins",
       "managerId": "manager-kelbey-heider",
       "managerName": "Kelbey Heider",
-      "value": 9
+      "value": 9,
+      "format": "number"
     },
     {
       "label": "Best single season",
@@ -21150,7 +22893,8 @@
       "champion": false,
       "managerId": "manager-cody-leslie",
       "managerName": "Cody Leslie",
-      "value": 13
+      "value": 13,
+      "format": "number"
     },
     {
       "label": "Highest scoring season",
@@ -21174,19 +22918,22 @@
       "champion": true,
       "managerId": "manager-kelbey-heider",
       "managerName": "Kelbey Heider",
-      "value": 1642.64
+      "value": 1642.64,
+      "format": "decimal"
     },
     {
       "label": "Longest winning streak",
       "managerId": "manager-cody-leslie",
       "managerName": "Cody Leslie",
-      "value": 17
+      "value": 17,
+      "format": "number"
     },
     {
       "label": "Longest losing streak",
       "managerId": "manager-austin-ketter",
       "managerName": "Austin Ketter",
-      "value": 11
+      "value": 11,
+      "format": "number"
     }
   ],
   "currentStandings": [
@@ -21197,9 +22944,6 @@
       "espnTeamId": 1,
       "teamName": "Long Dick of the Law",
       "abbreviation": "LDL",
-      "espnAliases": [
-        "Kelbsta2010"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21215,9 +22959,6 @@
       "espnTeamId": 2,
       "teamName": "Landfill of the Hottest Boys",
       "abbreviation": "LEAF",
-      "espnAliases": [
-        "willleafstedt"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21233,9 +22974,6 @@
       "espnTeamId": 3,
       "teamName": "Marvin Gaye and Charbonnet",
       "abbreviation": "IR",
-      "espnAliases": [
-        "peterw9799032"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21251,9 +22989,6 @@
       "espnTeamId": 4,
       "teamName": "Patrick star",
       "abbreviation": "Pstr",
-      "espnAliases": [
-        "cstalprun"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21269,9 +23004,6 @@
       "espnTeamId": 5,
       "teamName": "The Kekambas",
       "abbreviation": "GBBY",
-      "espnAliases": [
-        "wdemps8"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21287,9 +23019,6 @@
       "espnTeamId": 6,
       "teamName": "Smashing RB 3s",
       "abbreviation": "ABc",
-      "espnAliases": [
-        "espn42896775"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21305,9 +23034,6 @@
       "espnTeamId": 7,
       "teamName": "Chief Slappinhoes",
       "abbreviation": "Slap",
-      "espnAliases": [
-        "Alex952892"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21323,9 +23049,6 @@
       "espnTeamId": 8,
       "teamName": "Joe Smith's Dab Express ",
       "abbreviation": "DAB",
-      "espnAliases": [
-        "AFL since92"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21341,9 +23064,6 @@
       "espnTeamId": 9,
       "teamName": "Punani Dasani",
       "abbreviation": "WAP",
-      "espnAliases": [
-        "codyle7290469"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21359,9 +23079,6 @@
       "espnTeamId": 10,
       "teamName": "The Hot Boy Warehouse",
       "abbreviation": "Hot",
-      "espnAliases": [
-        "tswitz27"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21377,9 +23094,6 @@
       "espnTeamId": 11,
       "teamName": "Husker Mayer Weeyners",
       "abbreviation": "VIK",
-      "espnAliases": [
-        "espnfan97838955"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21395,9 +23109,6 @@
       "espnTeamId": 12,
       "teamName": "The Veggie Garden ",
       "abbreviation": "TVG",
-      "espnAliases": [
-        "54DemTigOlBitties"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21413,9 +23124,6 @@
       "espnTeamId": 13,
       "teamName": "Regulators",
       "abbreviation": "RGUL",
-      "espnAliases": [
-        "smithy9224441"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -21431,9 +23139,6 @@
       "espnTeamId": 14,
       "teamName": "McCracker Quack",
       "abbreviation": "Quac",
-      "espnAliases": [
-        "austin2879449"
-      ],
       "wins": 0,
       "losses": 0,
       "ties": 0,
